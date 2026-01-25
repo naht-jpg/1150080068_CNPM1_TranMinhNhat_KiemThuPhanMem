@@ -121,6 +121,36 @@ public class OrganizationDAO {
     }
 
     /**
+     * Tìm Organization theo tên (không phân biệt hoa/thường)
+     * @param orgName tên cần tìm
+     * @return Organization hoặc null nếu không tìm thấy
+     */
+    public Organization findByName(String orgName) {
+        String sql = "SELECT org_id, org_name, address, phone, email, created_date FROM organization WHERE LOWER(org_name) = LOWER(?)";
+        
+        try (Connection conn = DatabaseConnection.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+            
+            stmt.setString(1, orgName.trim());
+            ResultSet rs = stmt.executeQuery();
+            
+            if (rs.next()) {
+                return new Organization(
+                    rs.getInt("org_id"),
+                    rs.getString("org_name"),
+                    rs.getString("address"),
+                    rs.getString("phone"),
+                    rs.getString("email"),
+                    rs.getTimestamp("created_date").toLocalDateTime()
+                );
+            }
+        } catch (SQLException e) {
+            return null;
+        }
+        return null;
+    }
+
+    /**
      * Cập nhật Organization
      * @param org Organization cần cập nhật
      * @return true nếu cập nhật thành công

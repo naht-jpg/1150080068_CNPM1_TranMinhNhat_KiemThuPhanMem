@@ -51,18 +51,10 @@ public class HinhChuNhat {
         if (other == null) {
             throw new IllegalArgumentException("Invalid Data");
         }
-
-        // Hai hình chữ nhật KHÔNG giao nhau nếu:
-        // 1. Một hình nằm hoàn toàn bên trái hình kia: this.bottomRight.x <= other.topLeft.x
-        // 2. Một hình nằm hoàn toàn bên phải hình kia: this.topLeft.x >= other.bottomRight.x
-        // 3. Một hình nằm hoàn toàn bên trên hình kia: this.bottomRight.y >= other.topLeft.y
-        // 4. Một hình nằm hoàn toàn bên dưới hình kia: this.topLeft.y <= other.bottomRight.y
-
-        // Sử dụng <= và >= để loại trừ trường hợp chạm cạnh/góc
-        if (this.bottomRight.getX() <= other.topLeft.getX() ||  // this bên trái other
-            this.topLeft.getX() >= other.bottomRight.getX() ||  // this bên phải other
-            this.bottomRight.getY() >= other.topLeft.getY() ||  // this bên trên other
-            this.topLeft.getY() <= other.bottomRight.getY()) {  // this bên dưới other
+        if (this.bottomRight.getX() <= other.topLeft.getX() ||  
+            this.topLeft.getX() >= other.bottomRight.getX() ||  
+            this.bottomRight.getY() >= other.topLeft.getY() ||  
+            this.topLeft.getY() <= other.bottomRight.getY()) {  
             return false;
         }
 

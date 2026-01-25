@@ -2,7 +2,9 @@ package com.example.baitap.controller;
 
 import com.example.baitap.model.Organization;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 
 /**
  * Controller cho form Director Management
@@ -10,31 +12,39 @@ import javafx.scene.control.Label;
 public class DirectorController {
 
     @FXML
+    private Label lblOrgId;
+
+    @FXML
     private Label lblOrgName;
 
     @FXML
-    private Label lblOrgId;
+    private Label lblAddress;
+
+    @FXML
+    private Label lblPhone;
+
+    @FXML
+    private Label lblEmail;
+
+    @FXML
+    private Button btnClose;
 
     private Organization organization;
 
-    @FXML
-    public void initialize() {
-        // Khởi tạo
-    }
-
-    /**
-     * Set Organization được truyền từ form Organization
-     * @param organization organization vừa lưu
-     */
     public void setOrganization(Organization organization) {
         this.organization = organization;
         if (organization != null) {
+            lblOrgId.setText(String.valueOf(organization.getOrgId()));
             lblOrgName.setText(organization.getOrgName());
-            lblOrgId.setText("ID: " + organization.getOrgId());
+            lblAddress.setText(organization.getAddress() != null ? organization.getAddress() : "");
+            lblPhone.setText(organization.getPhone() != null ? organization.getPhone() : "");
+            lblEmail.setText(organization.getEmail() != null ? organization.getEmail() : "");
         }
     }
 
-    public Organization getOrganization() {
-        return organization;
+    @FXML
+    private void handleClose() {
+        Stage stage = (Stage) btnClose.getScene().getWindow();
+        stage.close();
     }
 }

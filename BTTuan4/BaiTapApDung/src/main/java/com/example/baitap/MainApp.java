@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- * Main Application - Entry point cho ứng dụng JavaFX
+ * Main Application
  */
 public class MainApp extends Application {
 
@@ -17,7 +17,7 @@ public class MainApp extends Application {
         Parent root = loader.load();
         
         primaryStage.setTitle("Organization Management");
-        primaryStage.setScene(new Scene(root, 500, 400));
+        primaryStage.setScene(new Scene(root, 450, 350));
         primaryStage.setResizable(false);
         primaryStage.show();
     }

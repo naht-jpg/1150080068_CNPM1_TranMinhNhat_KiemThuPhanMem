@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.bai2.JunitTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.example.bai2.JunitTest
+testJUnitMessage(com.example.bai2.SuiteTest1)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.ArithmeticException
+

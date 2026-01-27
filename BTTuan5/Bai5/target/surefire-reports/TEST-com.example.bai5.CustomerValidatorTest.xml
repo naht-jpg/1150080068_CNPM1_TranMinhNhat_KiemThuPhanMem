@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.bai5.CustomerValidatorTest" time="0.019" tests="56" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.bai5.CustomerValidatorTest" time="0.011" tests="56" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\vvkgh\AppData\Local\Temp\surefire10947031446456238543\surefirebooter15650941221541442356.jar C:\Users\vvkgh\AppData\Local\Temp\surefire10947031446456238543 2026-01-27T15-30-30_246-jvmRun1 surefire2639676882620814389tmp surefire_013838757209621209997tmp"/>
+    <property name="sun.java.command" value="C:\Users\vvkgh\AppData\Local\Temp\surefire7489288209529742408\surefirebooter15110960414183283971.jar C:\Users\vvkgh\AppData\Local\Temp\surefire7489288209529742408 2026-01-27T16-05-43_021-jvmRun1 surefire16070689388896747968tmp surefire_0337832131433995570tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\KiemThuPhanMem\BTTuan5\Bai5\target\test-classes;D:\KiemThuPhanMem\BTTuan5\Bai5\target\classes;C:\Users\vvkgh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\vvkgh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-controls\21\javafx-controls-21.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-controls\21\javafx-controls-21-win.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-graphics\21\javafx-graphics-21.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-graphics\21\javafx-graphics-21-win.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-base\21\javafx-base-21.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-base\21\javafx-base-21-win.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-fxml\21\javafx-fxml-21.jar;C:\Users\vvkgh\.m2\repository\org\openjfx\javafx-fxml\21\javafx-fxml-21-win.jar;C:\Users\vvkgh\.m2\repository\org\postgresql\postgresql\42.7.1\postgresql-42.7.1.jar;C:\Users\vvkgh\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\vvkgh\AppData\Local\Temp\surefire10947031446456238543\surefirebooter15650941221541442356.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vvkgh\AppData\Local\Temp\surefire7489288209529742408\surefirebooter15110960414183283971.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-2513"/>
@@ -74,29 +74,29 @@
   <testcase name="testCustomerIdTooShort" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPasswordTooShort" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPhoneTooShort" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testBirthDateOver18" classname="com.example.bai5.CustomerValidatorTest" time="0.004"/>
+  <testcase name="testBirthDateOver18" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
   <testcase name="testPhoneTooLong" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testEmailInvalidNoAt" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testAllFieldsEmpty" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testAllFieldsValid" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
+  <testcase name="testAllFieldsEmpty" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
+  <testcase name="testAllFieldsValid" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testEmailInvalidNoDomain" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testFullNameValidVietnamese" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
+  <testcase name="testFullNameValidVietnamese" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testAddressValid255Chars" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testEmailValidWithDots" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testFullNameValid5Chars" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testPhoneNull" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
+  <testcase name="testPhoneNull" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testConfirmPasswordEmpty" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testConfirmPasswordValid" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testPhoneWithLetters" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
-  <testcase name="testFullNameTooLong" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
+  <testcase name="testPhoneWithLetters" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
+  <testcase name="testFullNameTooLong" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
   <testcase name="testEmailInvalidNoUsername" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testConfirmPasswordNull" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testCustomerIdValid6Chars" classname="com.example.bai5.CustomerValidatorTest" time="0.002"/>
+  <testcase name="testCustomerIdValid6Chars" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testCustomerIdNull" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testCustomerIdValid10Chars" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testEmailEmpty" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testEmailValid" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testPhoneValid10Digits" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
+  <testcase name="testPhoneValid10Digits" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
   <testcase name="testTermsAgreed" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testCustomerIdWithSpecialChars" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPasswordValidLong" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
@@ -105,14 +105,14 @@
   <testcase name="testEmailValidWithNumbers" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testAddressEmpty" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testAddressValid" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testConfirmPasswordNotMatch" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
+  <testcase name="testConfirmPasswordNotMatch" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPasswordValid8Chars" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testBirthDateUnder18" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPhoneValid11Digits" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testTermsNotAgreed" classname="com.example.bai5.CustomerValidatorTest" time="0.002"/>
+  <testcase name="testTermsNotAgreed" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
   <testcase name="testBirthDateExactly18" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPasswordNull" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPhoneEmpty" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
-  <testcase name="testFullNameNull" classname="com.example.bai5.CustomerValidatorTest" time="0.001"/>
+  <testcase name="testFullNameNull" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
   <testcase name="testPhoneNotStartWith0" classname="com.example.bai5.CustomerValidatorTest" time="0"/>
 </testsuite>

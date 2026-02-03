@@ -1,7 +1,13 @@
 package fpoly.model;
 
+/**
+ * Model class cho Organization Unit
+ * - unitId: String (max 20 ký tự, optional, alphanumeric + underscore)
+ * - name: String (max 100 ký tự, required)
+ * - description: String (max 255 ký tự, optional)
+ */
 public class OrganizationUnit {
-    private int unitId;
+    private String unitId;
     private String name;
     private String description;
 
@@ -13,18 +19,18 @@ public class OrganizationUnit {
         this.description = description;
     }
 
-    public OrganizationUnit(int unitId, String name, String description) {
+    public OrganizationUnit(String unitId, String name, String description) {
         this.unitId = unitId;
         this.name = name;
         this.description = description;
     }
 
     // Getters and Setters
-    public int getUnitId() {
+    public String getUnitId() {
         return unitId;
     }
 
-    public void setUnitId(int unitId) {
+    public void setUnitId(String unitId) {
         this.unitId = unitId;
     }
 
@@ -47,7 +53,7 @@ public class OrganizationUnit {
     @Override
     public String toString() {
         return "OrganizationUnit{" +
-                "unitId=" + unitId +
+                "unitId='" + unitId + '\'' +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 '}';

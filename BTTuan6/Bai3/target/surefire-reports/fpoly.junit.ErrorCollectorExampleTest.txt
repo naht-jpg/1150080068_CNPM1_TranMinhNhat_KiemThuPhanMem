@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: fpoly.junit.ErrorCollectorExampleTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 2, Skipped: 0, Time elapsed: 0.08 s <<< FAILURE! - in fpoly.junit.ErrorCollectorExampleTest
+testCheckThatWrongValue(fpoly.junit.ErrorCollectorExampleTest)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: 
+Value should be 10 but got 5
+Expected: <10>
+     but: was <5>
+	at fpoly.junit.ErrorCollectorExampleTest.testCheckThatWrongValue(ErrorCollectorExampleTest.java:41)
+
+example(fpoly.junit.ErrorCollectorExampleTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Throwable: There is an error in first line
+	at fpoly.junit.ErrorCollectorExampleTest.example(ErrorCollectorExampleTest.java:17)
+
+example(fpoly.junit.ErrorCollectorExampleTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.Throwable: There is an error in second line
+	at fpoly.junit.ErrorCollectorExampleTest.example(ErrorCollectorExampleTest.java:19)
+
+example(fpoly.junit.ErrorCollectorExampleTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError
+	at fpoly.junit.ErrorCollectorExampleTest.example(ErrorCollectorExampleTest.java:23)
+
+testMultipleCheckThat(fpoly.junit.ErrorCollectorExampleTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+Second check - wrong
+Expected: <10>
+     but: was <5>
+	at fpoly.junit.ErrorCollectorExampleTest.testMultipleCheckThat(ErrorCollectorExampleTest.java:49)
+

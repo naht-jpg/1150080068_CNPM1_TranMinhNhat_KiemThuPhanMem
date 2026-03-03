@@ -6,8 +6,14 @@ import javax.swing.UIManager;
 
 public class Main {
     public static void main(String[] args) {
+        // Dùng Nimbus để tránh lỗi render nút trên Windows
         try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
         } catch (Exception ignored) {}
 
         SwingUtilities.invokeLater(() -> {

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai2.2_DangNhap_Testing" verbose="1">
+
+    <listeners>
+        <listener class-name="dtm.report.ExcelReportListener"/>
+    </listeners>
+
+    <test name="TC_DangNhap">
+        <classes>
+            <class name="dtm.tests.TC_DangNhapTest"/>
+        </classes>
+    </test>
+</suite>

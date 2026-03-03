@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Bai2.3_GioHang_ThanhToan]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="dtm.report.ExcelReportListener"/>
+  </listeners>
+  <test thread-count="1" name="TC_GioHang_Full(failed)" verbose="0">
+    <classes>
+      <class name="dtm.tests.TC_GioHangTest">
+        <methods>
+          <include name="chuanBi"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="problemUserGioHang"/>
+        </methods>
+      </class> <!-- dtm.tests.TC_GioHangTest -->
+    </classes>
+  </test> <!-- TC_GioHang_Full(failed) -->
+</suite> <!-- Failed suite [Bai2.3_GioHang_ThanhToan] -->

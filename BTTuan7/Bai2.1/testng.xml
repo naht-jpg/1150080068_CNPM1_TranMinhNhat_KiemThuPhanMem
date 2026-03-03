@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lab7_BlackBox_Testing" verbose="1" parallel="methods" thread-count="2">
+
+    <test name="DangNhap_Tests">
+        <classes>
+            <class name="dtm.tests.TC_DangNhapTest"/>
+        </classes>
+    </test>
+
+    <test name="GioHang_Tests">
+        <classes>
+            <class name="dtm.tests.TC_GioHangTest"/>
+        </classes>
+    </test>
+
+    <test name="TimKiem_Tests">
+        <classes>
+            <class name="dtm.tests.TC_TimKiemTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout_Tests">
+        <classes>
+            <class name="dtm.tests.TC_CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>

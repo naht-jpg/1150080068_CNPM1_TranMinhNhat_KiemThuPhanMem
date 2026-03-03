@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="21" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-03T16:54:34 ICT" name="Bai2.2_DangNhap_Testing" finished-at="2026-03-03T16:55:43 ICT" duration-ms="69669">
+    <groups>
+    </groups>
+    <test started-at="2026-03-03T16:54:34 ICT" name="TC_DangNhap" finished-at="2026-03-03T16:55:43 ICT" duration-ms="69669">
+      <class name="dtm.tests.TC_DangNhapTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:34 ICT" name="setUp" finished-at="2026-03-03T16:54:36 ICT" duration-ms="2010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:36 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:54:37 ICT" duration-ms="1364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THANH_CONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC01 - Tài khoản standard hợp lệ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:37 ICT" name="tearDown" finished-at="2026-03-03T16:54:37 ICT" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:37 ICT" name="setUp" finished-at="2026-03-03T16:54:38 ICT" duration-ms="694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:38 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:54:39 ICT" duration-ms="1218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THANH_CONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC02 - Tài khoản problem_user (UI lỗi sau đăng nhập)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:39 ICT" name="tearDown" finished-at="2026-03-03T16:54:39 ICT" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:39 ICT" name="setUp" finished-at="2026-03-03T16:54:40 ICT" duration-ms="855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:40 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:54:46 ICT" duration-ms="6225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THANH_CONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC03 - Tài khoản chậm (trang tải rất lâu)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:46 ICT" name="tearDown" finished-at="2026-03-03T16:54:46 ICT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:46 ICT" name="setUp" finished-at="2026-03-03T16:54:47 ICT" duration-ms="926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:47 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:54:49 ICT" duration-ms="1461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THANH_CONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC04 - Tài khoản error_user (một số action lỗi)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:49 ICT" name="tearDown" finished-at="2026-03-03T16:54:49 ICT" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:49 ICT" name="setUp" finished-at="2026-03-03T16:54:50 ICT" duration-ms="781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:50 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:54:51 ICT" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THANH_CONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC05 - Tài khoản visual_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:51 ICT" name="tearDown" finished-at="2026-03-03T16:54:52 ICT" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:52 ICT" name="setUp" finished-at="2026-03-03T16:54:53 ICT" duration-ms="946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:53 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:54:55 ICT" duration-ms="1791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BI_KHOA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC06 - Tài khoản bị khóa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:55 ICT" name="tearDown" finished-at="2026-03-03T16:54:56 ICT" duration-ms="1037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:56 ICT" name="setUp" finished-at="2026-03-03T16:54:57 ICT" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:57 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:54:58 ICT" duration-ms="1734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC07 - Đúng username, sai password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:58 ICT" name="tearDown" finished-at="2026-03-03T16:54:59 ICT" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:59 ICT" name="setUp" finished-at="2026-03-03T16:54:59 ICT" duration-ms="836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:54:59 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:01 ICT" duration-ms="1385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC08 - Sai username, đúng password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:01 ICT" name="tearDown" finished-at="2026-03-03T16:55:01 ICT" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:01 ICT" name="setUp" finished-at="2026-03-03T16:55:02 ICT" duration-ms="728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:02 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:03 ICT" duration-ms="1287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC09 - Sai cả username lẫn password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:03 ICT" name="tearDown" finished-at="2026-03-03T16:55:03 ICT" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:03 ICT" name="setUp" finished-at="2026-03-03T16:55:04 ICT" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:04 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:06 ICT" duration-ms="1586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STANDARD_USER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC10 - Username chữ hoa (case-sensitive)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:06 ICT" name="tearDown" finished-at="2026-03-03T16:55:06 ICT" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:06 ICT" name="setUp" finished-at="2026-03-03T16:55:07 ICT" duration-ms="871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:07 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:08 ICT" duration-ms="1332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUONG_TRONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC11 - Bỏ trống username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:08 ICT" name="tearDown" finished-at="2026-03-03T16:55:08 ICT" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:08 ICT" name="setUp" finished-at="2026-03-03T16:55:09 ICT" duration-ms="760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:09 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:11 ICT" duration-ms="1331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUONG_TRONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC12 - Bỏ trống password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:11 ICT" name="tearDown" finished-at="2026-03-03T16:55:11 ICT" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:11 ICT" name="setUp" finished-at="2026-03-03T16:55:11 ICT" duration-ms="694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:11 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:13 ICT" duration-ms="1300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUONG_TRONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC13 - Bỏ trống cả hai trường]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:13 ICT" name="tearDown" finished-at="2026-03-03T16:55:13 ICT" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:13 ICT" name="setUp" finished-at="2026-03-03T16:55:14 ICT" duration-ms="727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:14 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:15 ICT" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC14 - Khoảng trắng đầu username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:15 ICT" name="tearDown" finished-at="2026-03-03T16:55:15 ICT" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:15 ICT" name="setUp" finished-at="2026-03-03T16:55:16 ICT" duration-ms="734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:16 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:17 ICT" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC15 - Khoảng trắng cuối username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:17 ICT" name="tearDown" finished-at="2026-03-03T16:55:17 ICT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:17 ICT" name="setUp" finished-at="2026-03-03T16:55:18 ICT" duration-ms="872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:18 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:19 ICT" duration-ms="1265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ standard_user ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC16 - Khoảng trắng cả hai đầu/cuối username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:19 ICT" name="tearDown" finished-at="2026-03-03T16:55:20 ICT" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:20 ICT" name="setUp" finished-at="2026-03-03T16:55:20 ICT" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:20 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:22 ICT" duration-ms="1248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<script>alert(1)</script>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC17 - Username là XSS script tag]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:22 ICT" name="tearDown" finished-at="2026-03-03T16:55:22 ICT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:22 ICT" name="setUp" finished-at="2026-03-03T16:55:23 ICT" duration-ms="767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:23 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:24 ICT" duration-ms="1334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC18 - Username là SQL injection]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:24 ICT" name="tearDown" finished-at="2026-03-03T16:55:24 ICT" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:24 ICT" name="setUp" finished-at="2026-03-03T16:55:25 ICT" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:25 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:26 ICT" duration-ms="1202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@domain.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAI_THONG_TIN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC19 - Username dạng email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:26 ICT" name="tearDown" finished-at="2026-03-03T16:55:26 ICT" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:26 ICT" name="setUp" finished-at="2026-03-03T16:55:27 ICT" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:27 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:28 ICT" duration-ms="1161" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NULL_VALUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC20 - Username null (phải xử lý không crash)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:28 ICT" name="tearDown" finished-at="2026-03-03T16:55:28 ICT" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:28 ICT" name="setUp" finished-at="2026-03-03T16:55:29 ICT" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:29 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:30 ICT" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NULL_VALUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC21 - Password null (phải xử lý không crash)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:30 ICT" name="tearDown" finished-at="2026-03-03T16:55:30 ICT" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=SUCCESS method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:30 ICT" name="setUp" finished-at="2026-03-03T16:55:31 ICT" duration-ms="755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:31 ICT" name="kiemThuDangNhap" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="du_lieu_dang_nhap" finished-at="2026-03-03T16:55:43 ICT" duration-ms="11702" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[THANH_CONG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC22 - [Demo FAIL] Expect đăng nhập thành công nhưng tài khoản bị khóa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[TC22 - [Demo FAIL] Expect đăng nhập thành công nhưng tài khoản bị khóa] Kỳ vọng đăng nhập thành công nhưng không chuyển sang /inventory.html expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [TC22 - [Demo FAIL] Expect đăng nhập thành công nhưng tài khoản bị khóa] Kỳ vọng đăng nhập thành công nhưng không chuyển sang /inventory.html expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dtm.tests.TC_DangNhapTest.kiemThuDangNhap(TC_DangNhapTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemThuDangNhap -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4]" started-at="2026-03-03T16:55:43 ICT" name="tearDown" finished-at="2026-03-03T16:55:43 ICT" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemThuDangNhap status=FAILURE method=TC_DangNhapTest.kiemThuDangNhap(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_DangNhapTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.tests.TC_DangNhapTest -->
+    </test> <!-- TC_DangNhap -->
+  </suite> <!-- Bai2.2_DangNhap_Testing -->
+</testng-results>

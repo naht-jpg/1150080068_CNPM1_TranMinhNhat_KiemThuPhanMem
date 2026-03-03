@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bai2.2_DangNhap_Testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="dtm.report.ExcelReportListener"/>
+  </listeners>
+  <test thread-count="5" name="TC_DangNhap(failed)" verbose="0">
+    <classes>
+      <class name="dtm.tests.TC_DangNhapTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="kiemThuDangNhap" invocation-numbers="21"/>
+        </methods>
+      </class> <!-- dtm.tests.TC_DangNhapTest -->
+    </classes>
+  </test> <!-- TC_DangNhap(failed) -->
+</suite> <!-- Failed suite [Bai2.2_DangNhap_Testing] -->

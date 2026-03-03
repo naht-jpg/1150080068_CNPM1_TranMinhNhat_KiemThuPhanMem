@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-03T17:50:30 ICT" name="Bai2.3_GioHang_ThanhToan" finished-at="2026-03-03T17:52:45 ICT" duration-ms="135888">
+    <groups>
+      <group name="regression">
+        <method signature="TC_GioHangTest.cancelTaiStep1()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="cancelTaiStep1" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.cancelTaiStep2()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="cancelTaiStep2" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.checkoutButtonKhiGioTrong()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="checkoutButtonKhiGioTrong" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.checkoutThieuFirstName()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="checkoutThieuFirstName" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.checkoutThieuLastName()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="checkoutThieuLastName" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.checkoutThieuZipCode()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="checkoutThieuZipCode" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.continueShopping()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="continueShopping" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.gioHangResetSauDatHang()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="gioHangResetSauDatHang" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.kiemTraTongTien()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="kiemTraTongTien" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.problemUserGioHang()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="problemUserGioHang" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.sortGiaGiamDan()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="sortGiaGiamDan" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.sortGiaTangDan()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="sortGiaTangDan" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.sortTenAZ()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="sortTenAZ" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.sortTenZA()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="sortTenZA" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.tenSanPhamTrongGioKhop()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="tenSanPhamTrongGioKhop" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.themTatCa6SanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="themTatCa6SanPham" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.xoaHetSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="xoaHetSanPham" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.xoaMotSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="xoaMotSanPham" class="dtm.tests.TC_GioHangTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_GioHangTest.checkoutThanhCong()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="checkoutThanhCong" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.them3SanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="them3SanPham" class="dtm.tests.TC_GioHangTest"/>
+        <method signature="TC_GioHangTest.themMotSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" name="themMotSanPham" class="dtm.tests.TC_GioHangTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-03T17:50:30 ICT" name="TC_GioHang_Full" finished-at="2026-03-03T17:52:45 ICT" duration-ms="135888">
+      <class name="dtm.tests.TC_GioHangTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:30 ICT" name="setUp" finished-at="2026-03-03T17:50:34 ICT" duration-ms="4003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.cancelTaiStep1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:34 ICT" name="chuanBi" finished-at="2026-03-03T17:50:35 ICT" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="cancelTaiStep1()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:35 ICT" name="cancelTaiStep1" description="TC_CART_017: Cancel Step 1 → quay về cart.html" finished-at="2026-03-03T17:50:36 ICT" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelTaiStep1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:36 ICT" name="tearDown" finished-at="2026-03-03T17:50:36 ICT" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelTaiStep1 status=SUCCESS method=TC_GioHangTest.cancelTaiStep1()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:36 ICT" name="setUp" finished-at="2026-03-03T17:50:37 ICT" duration-ms="1281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.cancelTaiStep2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:37 ICT" name="chuanBi" finished-at="2026-03-03T17:50:38 ICT" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="cancelTaiStep2()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:38 ICT" name="cancelTaiStep2" description="TC_CART_018: Cancel Step 2 → quay về inventory.html" finished-at="2026-03-03T17:50:40 ICT" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelTaiStep2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:40 ICT" name="tearDown" finished-at="2026-03-03T17:50:40 ICT" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelTaiStep2 status=SUCCESS method=TC_GioHangTest.cancelTaiStep2()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:40 ICT" name="setUp" finished-at="2026-03-03T17:50:41 ICT" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.checkoutButtonKhiGioTrong()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:41 ICT" name="chuanBi" finished-at="2026-03-03T17:50:42 ICT" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="checkoutButtonKhiGioTrong()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:42 ICT" name="checkoutButtonKhiGioTrong" description="TC_CART_006: Giỏ trống – kiểm tra trạng thái nút Checkout" finished-at="2026-03-03T17:50:53 ICT" duration-ms="10186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutButtonKhiGioTrong -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:53 ICT" name="tearDown" finished-at="2026-03-03T17:50:53 ICT" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutButtonKhiGioTrong status=SUCCESS method=TC_GioHangTest.checkoutButtonKhiGioTrong()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:53 ICT" name="setUp" finished-at="2026-03-03T17:50:54 ICT" duration-ms="1168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.checkoutThanhCong()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:54 ICT" name="chuanBi" finished-at="2026-03-03T17:50:55 ICT" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="checkoutThanhCong()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:55 ICT" name="checkoutThanhCong" description="TC_CART_015: Checkout đầy đủ → Thank you for your order!" finished-at="2026-03-03T17:50:56 ICT" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutThanhCong -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:56 ICT" name="tearDown" finished-at="2026-03-03T17:50:56 ICT" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutThanhCong status=SUCCESS method=TC_GioHangTest.checkoutThanhCong()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:56 ICT" name="setUp" finished-at="2026-03-03T17:50:58 ICT" duration-ms="1321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.checkoutThieuFirstName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:58 ICT" name="chuanBi" finished-at="2026-03-03T17:50:59 ICT" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="checkoutThieuFirstName()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:50:59 ICT" name="checkoutThieuFirstName" description="TC_CART_012: Checkout – thiếu First Name → lỗi" finished-at="2026-03-03T17:51:10 ICT" duration-ms="11555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutThieuFirstName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:10 ICT" name="tearDown" finished-at="2026-03-03T17:51:11 ICT" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutThieuFirstName status=SUCCESS method=TC_GioHangTest.checkoutThieuFirstName()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:11 ICT" name="setUp" finished-at="2026-03-03T17:51:12 ICT" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.checkoutThieuLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:12 ICT" name="chuanBi" finished-at="2026-03-03T17:51:14 ICT" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="checkoutThieuLastName()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:14 ICT" name="checkoutThieuLastName" description="TC_CART_013: Checkout – thiếu Last Name → lỗi" finished-at="2026-03-03T17:51:15 ICT" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutThieuLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:15 ICT" name="tearDown" finished-at="2026-03-03T17:51:15 ICT" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutThieuLastName status=SUCCESS method=TC_GioHangTest.checkoutThieuLastName()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:15 ICT" name="setUp" finished-at="2026-03-03T17:51:16 ICT" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.checkoutThieuZipCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:16 ICT" name="chuanBi" finished-at="2026-03-03T17:51:18 ICT" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="checkoutThieuZipCode()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:18 ICT" name="checkoutThieuZipCode" description="TC_CART_014: Checkout – thiếu Zip Code → lỗi" finished-at="2026-03-03T17:51:19 ICT" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutThieuZipCode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:19 ICT" name="tearDown" finished-at="2026-03-03T17:51:19 ICT" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutThieuZipCode status=SUCCESS method=TC_GioHangTest.checkoutThieuZipCode()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:19 ICT" name="setUp" finished-at="2026-03-03T17:51:20 ICT" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.continueShopping()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:20 ICT" name="chuanBi" finished-at="2026-03-03T17:51:21 ICT" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="continueShopping()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:21 ICT" name="continueShopping" description="TC_CART_020: Continue Shopping → quay về inventory.html" finished-at="2026-03-03T17:51:22 ICT" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:22 ICT" name="tearDown" finished-at="2026-03-03T17:51:22 ICT" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=continueShopping status=SUCCESS method=TC_GioHangTest.continueShopping()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:22 ICT" name="setUp" finished-at="2026-03-03T17:51:23 ICT" duration-ms="1113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.gioHangResetSauDatHang()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:23 ICT" name="chuanBi" finished-at="2026-03-03T17:51:24 ICT" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="gioHangResetSauDatHang()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:24 ICT" name="gioHangResetSauDatHang" description="TC_CART_016: Sau checkout complete – giỏ hàng reset về 0" finished-at="2026-03-03T17:51:36 ICT" duration-ms="11839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gioHangResetSauDatHang -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:36 ICT" name="tearDown" finished-at="2026-03-03T17:51:36 ICT" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gioHangResetSauDatHang status=SUCCESS method=TC_GioHangTest.gioHangResetSauDatHang()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:36 ICT" name="setUp" finished-at="2026-03-03T17:51:38 ICT" duration-ms="1112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.kiemTraTongTien()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:38 ICT" name="chuanBi" finished-at="2026-03-03T17:51:39 ICT" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="kiemTraTongTien()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:39 ICT" name="kiemTraTongTien" description="TC_CART_011: Kiểm tra tổng tiền chính xác (delta 0.01)" finished-at="2026-03-03T17:51:41 ICT" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraTongTien -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:41 ICT" name="tearDown" finished-at="2026-03-03T17:51:41 ICT" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemTraTongTien status=SUCCESS method=TC_GioHangTest.kiemTraTongTien()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:41 ICT" name="setUp" finished-at="2026-03-03T17:51:42 ICT" duration-ms="1184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.problemUserGioHang()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:42 ICT" name="chuanBi" finished-at="2026-03-03T17:51:43 ICT" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="problemUserGioHang()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:43 ICT" name="problemUserGioHang" description="TC_CART_021: problem_user – kiểm tra bug thêm &amp; xóa giỏ hàng" finished-at="2026-03-03T17:51:44 ICT" duration-ms="1211" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[BUG] problem_user: Badge sau xóa phải là 0, thực tế: 1 – Bug đã biết trên problem_user expected [0] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [BUG] problem_user: Badge sau xóa phải là 0, thực tế: 1 – Bug đã biết trên problem_user expected [0] but found [1]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at dtm.tests.TC_GioHangTest.problemUserGioHang(TC_GioHangTest.java:520)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- problemUserGioHang -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:44 ICT" name="tearDown" finished-at="2026-03-03T17:51:45 ICT" duration-ms="466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=problemUserGioHang status=FAILURE method=TC_GioHangTest.problemUserGioHang()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:45 ICT" name="setUp" finished-at="2026-03-03T17:51:46 ICT" duration-ms="1215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.sortGiaGiamDan()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:46 ICT" name="chuanBi" finished-at="2026-03-03T17:51:47 ICT" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="sortGiaGiamDan()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:47 ICT" name="sortGiaGiamDan" description="TC_CART_010: Sort giá giảm dần – đúng thứ tự" finished-at="2026-03-03T17:51:47 ICT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortGiaGiamDan -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:47 ICT" name="tearDown" finished-at="2026-03-03T17:51:48 ICT" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortGiaGiamDan status=SUCCESS method=TC_GioHangTest.sortGiaGiamDan()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:48 ICT" name="setUp" finished-at="2026-03-03T17:51:49 ICT" duration-ms="1122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.sortGiaTangDan()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:49 ICT" name="chuanBi" finished-at="2026-03-03T17:51:50 ICT" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="sortGiaTangDan()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:50 ICT" name="sortGiaTangDan" description="TC_CART_009: Sort giá tăng dần – đúng thứ tự" finished-at="2026-03-03T17:51:50 ICT" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortGiaTangDan -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:50 ICT" name="tearDown" finished-at="2026-03-03T17:51:51 ICT" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortGiaTangDan status=SUCCESS method=TC_GioHangTest.sortGiaTangDan()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:51 ICT" name="setUp" finished-at="2026-03-03T17:51:52 ICT" duration-ms="1133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.sortTenAZ()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:52 ICT" name="chuanBi" finished-at="2026-03-03T17:51:53 ICT" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="sortTenAZ()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:53 ICT" name="sortTenAZ" description="TC_CART_007: Sort Name A→Z – đúng thứ tự" finished-at="2026-03-03T17:51:53 ICT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTenAZ -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:53 ICT" name="tearDown" finished-at="2026-03-03T17:51:53 ICT" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortTenAZ status=SUCCESS method=TC_GioHangTest.sortTenAZ()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:53 ICT" name="setUp" finished-at="2026-03-03T17:51:54 ICT" duration-ms="1259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.sortTenZA()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:54 ICT" name="chuanBi" finished-at="2026-03-03T17:51:56 ICT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="sortTenZA()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:56 ICT" name="sortTenZA" description="TC_CART_008: Sort Name Z→A – đúng thứ tự" finished-at="2026-03-03T17:51:56 ICT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTenZA -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:56 ICT" name="tearDown" finished-at="2026-03-03T17:51:56 ICT" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortTenZA status=SUCCESS method=TC_GioHangTest.sortTenZA()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:56 ICT" name="setUp" finished-at="2026-03-03T17:51:57 ICT" duration-ms="1185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.tenSanPhamTrongGioKhop()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:57 ICT" name="chuanBi" finished-at="2026-03-03T17:51:59 ICT" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="tenSanPhamTrongGioKhop()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:51:59 ICT" name="tenSanPhamTrongGioKhop" description="TC_CART_019: Tên sản phẩm trong giỏ khớp với đã thêm" finished-at="2026-03-03T17:52:00 ICT" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenSanPhamTrongGioKhop -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:00 ICT" name="tearDown" finished-at="2026-03-03T17:52:00 ICT" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tenSanPhamTrongGioKhop status=SUCCESS method=TC_GioHangTest.tenSanPhamTrongGioKhop()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:00 ICT" name="setUp" finished-at="2026-03-03T17:52:01 ICT" duration-ms="1170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.them3SanPham()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:01 ICT" name="chuanBi" finished-at="2026-03-03T17:52:02 ICT" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="them3SanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:02 ICT" name="them3SanPham" description="TC_CART_002: Thêm 3 sản phẩm – badge = 3" finished-at="2026-03-03T17:52:02 ICT" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- them3SanPham -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:02 ICT" name="tearDown" finished-at="2026-03-03T17:52:03 ICT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=them3SanPham status=SUCCESS method=TC_GioHangTest.them3SanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:03 ICT" name="setUp" finished-at="2026-03-03T17:52:04 ICT" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.themMotSanPham()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:04 ICT" name="chuanBi" finished-at="2026-03-03T17:52:05 ICT" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="themMotSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:05 ICT" name="themMotSanPham" description="TC_CART_001: Thêm 1 sản phẩm – badge = 1" finished-at="2026-03-03T17:52:05 ICT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themMotSanPham -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:05 ICT" name="tearDown" finished-at="2026-03-03T17:52:05 ICT" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=themMotSanPham status=SUCCESS method=TC_GioHangTest.themMotSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:05 ICT" name="setUp" finished-at="2026-03-03T17:52:07 ICT" duration-ms="1172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.themTatCa6SanPham()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:07 ICT" name="chuanBi" finished-at="2026-03-03T17:52:08 ICT" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="themTatCa6SanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:08 ICT" name="themTatCa6SanPham" description="TC_CART_003: Thêm tất cả 6 sản phẩm – badge = 6" finished-at="2026-03-03T17:52:09 ICT" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themTatCa6SanPham -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:09 ICT" name="tearDown" finished-at="2026-03-03T17:52:09 ICT" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=themTatCa6SanPham status=SUCCESS method=TC_GioHangTest.themTatCa6SanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:09 ICT" name="setUp" finished-at="2026-03-03T17:52:10 ICT" duration-ms="1185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.xoaHetSanPham()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:10 ICT" name="chuanBi" finished-at="2026-03-03T17:52:11 ICT" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="xoaHetSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:11 ICT" name="xoaHetSanPham" description="TC_CART_005: Xóa hết sản phẩm – giỏ trống" finished-at="2026-03-03T17:52:42 ICT" duration-ms="30770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xoaHetSanPham -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:42 ICT" name="tearDown" finished-at="2026-03-03T17:52:42 ICT" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=xoaHetSanPham status=SUCCESS method=TC_GioHangTest.xoaHetSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:42 ICT" name="setUp" finished-at="2026-03-03T17:52:43 ICT" duration-ms="1052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_GioHangTest.xoaMotSanPham()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="chuanBi()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:43 ICT" name="chuanBi" finished-at="2026-03-03T17:52:44 ICT" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chuanBi -->
+        <test-method signature="xoaMotSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:44 ICT" name="xoaMotSanPham" description="TC_CART_004: Xóa 1 sản phẩm – badge giảm" finished-at="2026-03-03T17:52:45 ICT" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xoaMotSanPham -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876]" started-at="2026-03-03T17:52:45 ICT" name="tearDown" finished-at="2026-03-03T17:52:45 ICT" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=xoaMotSanPham status=SUCCESS method=TC_GioHangTest.xoaMotSanPham()[pri:0, instance:dtm.tests.TC_GioHangTest@32eff876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.tests.TC_GioHangTest -->
+    </test> <!-- TC_GioHang_Full -->
+  </suite> <!-- Bai2.3_GioHang_ThanhToan -->
+</testng-results>

@@ -1,0 +1,7 @@
+dtm\tests\TC_GioHangTest.class
+dtm\base\BaseTest.class
+dtm\pages\CheckoutPage.class
+dtm\pages\CartPage.class
+dtm\pages\LoginPage.class
+dtm\pages\InventoryPage.class
+dtm\report\ExcelReportListener.class

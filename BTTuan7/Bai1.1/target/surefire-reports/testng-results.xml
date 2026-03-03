@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="47" passed="47" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-03T14:52:06 ICT" name="LAB7 Bai 1.1 Form Dang Ky ShopVN" finished-at="2026-03-03T14:52:06 ICT" duration-ms="238">
+  <suite started-at="2026-03-03T15:05:50 ICT" name="LAB7 Bai 1.1 Form Dang Ky ShopVN" finished-at="2026-03-03T15:05:50 ICT" duration-ms="222">
     <groups>
       <group name="smoke">
         <method signature="RegistrationFormTest.test_TC_REG_EP_001()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" name="test_TC_REG_EP_001" class="com.shopvn.test.RegistrationFormTest"/>
@@ -63,213 +63,213 @@
         <method signature="RegistrationFormTest.test_TC_REG_SPEC_008()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" name="test_TC_REG_SPEC_008" class="com.shopvn.test.RegistrationFormTest"/>
       </group> <!-- spec -->
     </groups>
-    <test started-at="2026-03-03T14:52:06 ICT" name="EP - Phan hoach tuong duong" finished-at="2026-03-03T14:52:06 ICT" duration-ms="137">
+    <test started-at="2026-03-03T15:05:50 ICT" name="EP - Phan hoach tuong duong" finished-at="2026-03-03T15:05:50 ICT" duration-ms="130">
       <class name="com.shopvn.test.RegistrationFormTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="setUp" finished-at="2026-03-03T14:52:06 ICT" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="setUp" finished-at="2026-03-03T15:05:50 ICT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_TC_REG_EP_001()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_001" description="TC_REG_EP_001 - Full valid form" finished-at="2026-03-03T14:52:06 ICT" duration-ms="17" status="PASS">
+        <test-method signature="test_TC_REG_EP_001()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_001" description="TC_REG_EP_001 - Full valid form" finished-at="2026-03-03T15:05:50 ICT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_001 -->
-        <test-method signature="test_TC_REG_EP_002()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_002" description="TC_REG_EP_002 - Ho va ten trong" finished-at="2026-03-03T14:52:06 ICT" duration-ms="2" status="PASS">
+        <test-method signature="test_TC_REG_EP_002()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_002" description="TC_REG_EP_002 - Ho va ten trong" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_002 -->
-        <test-method signature="test_TC_REG_EP_003()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_003" description="TC_REG_EP_003 - Ho va ten chua chu so" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_EP_003()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_003" description="TC_REG_EP_003 - Ho va ten chua chu so" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_003 -->
-        <test-method signature="test_TC_REG_EP_004()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_004" description="TC_REG_EP_004 - Ho va ten chua ky tu dac biet" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_EP_004()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_004" description="TC_REG_EP_004 - Ho va ten chua ky tu dac biet" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_004 -->
-        <test-method signature="test_TC_REG_EP_005()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_005" description="TC_REG_EP_005 - Ten dang nhap trong" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_EP_005()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_005" description="TC_REG_EP_005 - Ten dang nhap trong" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_005 -->
-        <test-method signature="test_TC_REG_EP_006()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_006" description="TC_REG_EP_006 - Ten dang nhap bat dau bang so" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_EP_006()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_006" description="TC_REG_EP_006 - Ten dang nhap bat dau bang so" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_006 -->
-        <test-method signature="test_TC_REG_EP_007()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_007" description="TC_REG_EP_007 - Ten dang nhap chua chu hoa" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_EP_007()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_007" description="TC_REG_EP_007 - Ten dang nhap chua chu hoa" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_007 -->
-        <test-method signature="test_TC_REG_EP_008()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_008" description="TC_REG_EP_008 - Ten dang nhap chua @" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_EP_008()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_008" description="TC_REG_EP_008 - Ten dang nhap chua @" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_008 -->
-        <test-method signature="test_TC_REG_EP_009()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_009" description="TC_REG_EP_009 - Email trong" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_REG_EP_009 -->
-        <test-method signature="test_TC_REG_EP_010()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_010" description="TC_REG_EP_010 - Email khong co @" finished-at="2026-03-03T14:52:06 ICT" duration-ms="2" status="PASS">
+        <test-method signature="test_TC_REG_EP_010()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_010" description="TC_REG_EP_010 - Email khong co @" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_010 -->
-        <test-method signature="test_TC_REG_EP_011()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_011" description="TC_REG_EP_011 - Email khong co domain" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_EP_009()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_009" description="TC_REG_EP_009 - Email trong" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TC_REG_EP_009 -->
+        <test-method signature="test_TC_REG_EP_011()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_011" description="TC_REG_EP_011 - Email khong co domain" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_011 -->
-        <test-method signature="test_TC_REG_EP_012()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_012" description="TC_REG_EP_012 - SDT trong" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_EP_012()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_012" description="TC_REG_EP_012 - SDT trong" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_012 -->
-        <test-method signature="test_TC_REG_EP_013()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_013" description="TC_REG_EP_013 - SDT khong bat dau bang 0" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_EP_013()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_013" description="TC_REG_EP_013 - SDT khong bat dau bang 0" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_013 -->
-        <test-method signature="test_TC_REG_EP_014()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_014" description="TC_REG_EP_014 - Mat khau khong co chu hoa" finished-at="2026-03-03T14:52:06 ICT" duration-ms="3" status="PASS">
+        <test-method signature="test_TC_REG_EP_014()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_014" description="TC_REG_EP_014 - Mat khau khong co chu hoa" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_014 -->
-        <test-method signature="test_TC_REG_EP_015()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_EP_015" description="TC_REG_EP_015 - Mat khau khong co chu thuong" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_EP_015()[pri:0, instance:com.shopvn.test.RegistrationFormTest@21de60b4]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_EP_015" description="TC_REG_EP_015 - Mat khau khong co chu thuong" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_EP_015 -->
       </class> <!-- com.shopvn.test.RegistrationFormTest -->
     </test> <!-- EP - Phan hoach tuong duong -->
-    <test started-at="2026-03-03T14:52:06 ICT" name="BVA - Gia tri bien" finished-at="2026-03-03T14:52:06 ICT" duration-ms="31">
+    <test started-at="2026-03-03T15:05:50 ICT" name="BVA - Gia tri bien" finished-at="2026-03-03T15:05:50 ICT" duration-ms="26">
       <class name="com.shopvn.test.RegistrationFormTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="setUp" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="setUp" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_TC_REG_BVA_001()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_001" description="TC_REG_BVA_001 - Ho va ten 1 ky tu (min-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_001()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_001" description="TC_REG_BVA_001 - Ho va ten 1 ky tu (min-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_001 -->
-        <test-method signature="test_TC_REG_BVA_002()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_002" description="TC_REG_BVA_002 - Ho va ten 2 ky tu (min)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_002()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_002" description="TC_REG_BVA_002 - Ho va ten 2 ky tu (min)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_002 -->
-        <test-method signature="test_TC_REG_BVA_003()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_003" description="TC_REG_BVA_003 - Ho va ten 3 ky tu (min+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_003()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_003" description="TC_REG_BVA_003 - Ho va ten 3 ky tu (min+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_003 -->
-        <test-method signature="test_TC_REG_BVA_004()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_004" description="TC_REG_BVA_004 - Ho va ten 49 ky tu (max-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_004()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_004" description="TC_REG_BVA_004 - Ho va ten 49 ky tu (max-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_004 -->
-        <test-method signature="test_TC_REG_BVA_005()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_005" description="TC_REG_BVA_005 - Ho va ten 50 ky tu (max)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_005()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_005" description="TC_REG_BVA_005 - Ho va ten 50 ky tu (max)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_005 -->
-        <test-method signature="test_TC_REG_BVA_006()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_006" description="TC_REG_BVA_006 - Ho va ten 51 ky tu (max+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_006()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_006" description="TC_REG_BVA_006 - Ho va ten 51 ky tu (max+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_006 -->
-        <test-method signature="test_TC_REG_BVA_007()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_007" description="TC_REG_BVA_007 - Ten dn 4 ky tu (min-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_007()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_007" description="TC_REG_BVA_007 - Ten dn 4 ky tu (min-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_007 -->
-        <test-method signature="test_TC_REG_BVA_009()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_009" description="TC_REG_BVA_009 - Ten dn 6 ky tu (min+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_REG_BVA_009 -->
-        <test-method signature="test_TC_REG_BVA_008()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_008" description="TC_REG_BVA_008 - Ten dn 5 ky tu (min)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_008()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_008" description="TC_REG_BVA_008 - Ten dn 5 ky tu (min)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_008 -->
-        <test-method signature="test_TC_REG_BVA_010()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_010" description="TC_REG_BVA_010 - Ten dn 19 ky tu (max-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_009()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_009" description="TC_REG_BVA_009 - Ten dn 6 ky tu (min+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TC_REG_BVA_009 -->
+        <test-method signature="test_TC_REG_BVA_010()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_010" description="TC_REG_BVA_010 - Ten dn 19 ky tu (max-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_010 -->
-        <test-method signature="test_TC_REG_BVA_011()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_011" description="TC_REG_BVA_011 - Ten dn 20 ky tu (max)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_TC_REG_BVA_011 -->
-        <test-method signature="test_TC_REG_BVA_012()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_012" description="TC_REG_BVA_012 - Ten dn 21 ky tu (max+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_012()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_012" description="TC_REG_BVA_012 - Ten dn 21 ky tu (max+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_012 -->
-        <test-method signature="test_TC_REG_BVA_014()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_014" description="TC_REG_BVA_014 - Mat khau 8 ky tu (min)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="2" status="PASS">
+        <test-method signature="test_TC_REG_BVA_011()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_011" description="TC_REG_BVA_011 - Ten dn 20 ky tu (max)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TC_REG_BVA_011 -->
+        <test-method signature="test_TC_REG_BVA_014()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_014" description="TC_REG_BVA_014 - Mat khau 8 ky tu (min)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_014 -->
-        <test-method signature="test_TC_REG_BVA_013()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_013" description="TC_REG_BVA_013 - Mat khau 7 ky tu (min-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_013()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_013" description="TC_REG_BVA_013 - Mat khau 7 ky tu (min-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_013 -->
-        <test-method signature="test_TC_REG_BVA_015()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_015" description="TC_REG_BVA_015 - Mat khau 9 ky tu (min+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_015()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_015" description="TC_REG_BVA_015 - Mat khau 9 ky tu (min+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_015 -->
-        <test-method signature="test_TC_REG_BVA_016()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_016" description="TC_REG_BVA_016 - Mat khau 31 ky tu (max-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_016()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_016" description="TC_REG_BVA_016 - Mat khau 31 ky tu (max-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_016 -->
-        <test-method signature="test_TC_REG_BVA_017()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_017" description="TC_REG_BVA_017 - Mat khau 32 ky tu (max)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_017()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_017" description="TC_REG_BVA_017 - Mat khau 32 ky tu (max)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_017 -->
-        <test-method signature="test_TC_REG_BVA_018()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_018" description="TC_REG_BVA_018 - Mat khau 33 ky tu (max+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_018()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_018" description="TC_REG_BVA_018 - Mat khau 33 ky tu (max+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_018 -->
-        <test-method signature="test_TC_REG_BVA_019()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_019" description="TC_REG_BVA_019 - Ngay sinh 04/03/2010 chua du 16 tuoi (min-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_BVA_019()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_019" description="TC_REG_BVA_019 - Ngay sinh 04/03/2010 chua du 16 tuoi (min-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_019 -->
-        <test-method signature="test_TC_REG_BVA_020()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_020" description="TC_REG_BVA_020 - Ngay sinh 03/03/2010 dung 16 tuoi (min)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_020()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_020" description="TC_REG_BVA_020 - Ngay sinh 03/03/2010 dung 16 tuoi (min)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_020 -->
-        <test-method signature="test_TC_REG_BVA_021()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_021" description="TC_REG_BVA_021 - Ngay sinh 02/03/2010 16 tuoi 1 ngay (min+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="2" status="PASS">
+        <test-method signature="test_TC_REG_BVA_021()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_021" description="TC_REG_BVA_021 - Ngay sinh 02/03/2010 16 tuoi 1 ngay (min+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_021 -->
-        <test-method signature="test_TC_REG_BVA_022()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_022" description="TC_REG_BVA_022 - Ngay sinh 04/03/1926 99 tuoi 364 ngay (max-1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_022()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_022" description="TC_REG_BVA_022 - Ngay sinh 04/03/1926 99 tuoi 364 ngay (max-1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_022 -->
-        <test-method signature="test_TC_REG_BVA_023()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_023" description="TC_REG_BVA_023 - Ngay sinh 03/03/1926 dung 100 tuoi (max)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_023()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_023" description="TC_REG_BVA_023 - Ngay sinh 03/03/1926 dung 100 tuoi (max)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_023 -->
-        <test-method signature="test_TC_REG_BVA_024()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_BVA_024" description="TC_REG_BVA_024 - Ngay sinh 02/03/1926 100 tuoi 1 ngay (max+1)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_BVA_024()[pri:0, instance:com.shopvn.test.RegistrationFormTest@1d9b7cce]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_BVA_024" description="TC_REG_BVA_024 - Ngay sinh 02/03/1926 100 tuoi 1 ngay (max+1)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_BVA_024 -->
       </class> <!-- com.shopvn.test.RegistrationFormTest -->
     </test> <!-- BVA - Gia tri bien -->
-    <test started-at="2026-03-03T14:52:06 ICT" name="SPEC - Dac biet" finished-at="2026-03-03T14:52:06 ICT" duration-ms="9">
+    <test started-at="2026-03-03T15:05:50 ICT" name="SPEC - Dac biet" finished-at="2026-03-03T15:05:50 ICT" duration-ms="7">
       <class name="com.shopvn.test.RegistrationFormTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="setUp" finished-at="2026-03-03T14:52:06 ICT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test_TC_REG_SPEC_001()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_001" description="TC_REG_SPEC_001 - Email da ton tai (duplicate)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_SPEC_001()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_001" description="TC_REG_SPEC_001 - Email da ton tai (duplicate)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_SPEC_001 -->
-        <test-method signature="test_TC_REG_SPEC_003()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_003" description="TC_REG_SPEC_003 - Xac nhan mat khau khong khop" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="setUp" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_TC_REG_SPEC_003 -->
-        <test-method signature="test_TC_REG_SPEC_002()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_002" description="TC_REG_SPEC_002 - Ten dang nhap da ton tai" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="test_TC_REG_SPEC_002()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_002" description="TC_REG_SPEC_002 - Ten dang nhap da ton tai" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_SPEC_002 -->
-        <test-method signature="test_TC_REG_SPEC_004()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_004" description="TC_REG_SPEC_004 - Ma gioi thieu hop le (co trong CSDL)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_SPEC_003()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_003" description="TC_REG_SPEC_003 - Xac nhan mat khau khong khop" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_TC_REG_SPEC_004 -->
-        <test-method signature="test_TC_REG_SPEC_005()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_005" description="TC_REG_SPEC_005 - Ma gioi thieu khong ton tai CSDL" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        </test-method> <!-- test_TC_REG_SPEC_003 -->
+        <test-method signature="test_TC_REG_SPEC_005()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_005" description="TC_REG_SPEC_005 - Ma gioi thieu khong ton tai CSDL" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_SPEC_005 -->
-        <test-method signature="test_TC_REG_SPEC_006()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_006" description="TC_REG_SPEC_006 - Ma gioi thieu chua chu thuong (sai format)" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_SPEC_004()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_004" description="TC_REG_SPEC_004 - Ma gioi thieu hop le (co trong CSDL)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TC_REG_SPEC_004 -->
+        <test-method signature="test_TC_REG_SPEC_006()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_006" description="TC_REG_SPEC_006 - Ma gioi thieu chua chu thuong (sai format)" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_SPEC_006 -->
-        <test-method signature="test_TC_REG_SPEC_007()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_007" description="TC_REG_SPEC_007 - Khong tich Dong y Dieu khoan" finished-at="2026-03-03T14:52:06 ICT" duration-ms="0" status="PASS">
+        <test-method signature="test_TC_REG_SPEC_007()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_007" description="TC_REG_SPEC_007 - Khong tich Dong y Dieu khoan" finished-at="2026-03-03T15:05:50 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_SPEC_007 -->
-        <test-method signature="test_TC_REG_SPEC_008()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T14:52:06 ICT" name="test_TC_REG_SPEC_008" description="TC_REG_SPEC_008 - Mat khau thieu ky tu dac biet" finished-at="2026-03-03T14:52:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="test_TC_REG_SPEC_008()[pri:0, instance:com.shopvn.test.RegistrationFormTest@42e99e4a]" started-at="2026-03-03T15:05:50 ICT" name="test_TC_REG_SPEC_008" description="TC_REG_SPEC_008 - Mat khau thieu ky tu dac biet" finished-at="2026-03-03T15:05:50 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TC_REG_SPEC_008 -->

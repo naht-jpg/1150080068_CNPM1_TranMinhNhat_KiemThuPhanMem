@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LAB7 Bai 1.1 Form Dang Ky ShopVN" verbose="1">
+  <listeners>
+    <listener class-name="com.shopvn.test.listener.ExcelReportListener"/>
+  </listeners>
+  <test name="EP - Phan hoach tuong duong">
+    <groups><run><include name="ep"/></run></groups>
+    <classes><class name="com.shopvn.test.RegistrationFormTest"/></classes>
+  </test>
+  <test name="BVA - Gia tri bien">
+    <groups><run><include name="bva"/></run></groups>
+    <classes><class name="com.shopvn.test.RegistrationFormTest"/></classes>
+  </test>
+  <test name="SPEC - Dac biet">
+    <groups><run><include name="spec"/></run></groups>
+    <classes><class name="com.shopvn.test.RegistrationFormTest"/></classes>
+  </test>
+</suite>

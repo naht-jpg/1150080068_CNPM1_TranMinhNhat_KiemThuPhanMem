@@ -1,0 +1,5 @@
+com\shopvn\test\report\TestCaseRow.class
+com\shopvn\test\report\ExcelReportGenerator.class
+com\shopvn\test\listener\ExcelReportListener.class
+com\shopvn\test\data\RegistrationTestCaseFactory.class
+com\shopvn\test\RegistrationFormTest.class

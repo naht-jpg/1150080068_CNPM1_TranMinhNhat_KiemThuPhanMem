@@ -1,0 +1,4 @@
+com\shopvn\form\RegistrationFormValidator$ValidationResult.class
+com\shopvn\form\RegistrationFormValidator.class
+com\shopvn\form\RegistrationForm.class
+com\shopvn\form\MockDatabase.class

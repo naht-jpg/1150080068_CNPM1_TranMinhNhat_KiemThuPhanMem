@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T14:28:53 ICT" name="Bai1.2 Login Test Suite" finished-at="2026-03-10T14:29:14 ICT" duration-ms="21634">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T14:28:53 ICT" name="Login Test" finished-at="2026-03-10T14:29:14 ICT" duration-ms="21634">
+      <class name="dtm.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:28:53 ICT" name="setUp" finished-at="2026-03-10T14:28:58 ICT" duration-ms="5234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyPassword()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:28:58 ICT" name="testLoginEmptyPassword" description="Đăng nhập khi bỏ trống password" finished-at="2026-03-10T14:28:59 ICT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:28:59 ICT" name="tearDown" finished-at="2026-03-10T14:28:59 ICT" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:28:59 ICT" name="setUp" finished-at="2026-03-10T14:29:02 ICT" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyUsername()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:02 ICT" name="testLoginEmptyUsername" description="Đăng nhập khi bỏ trống username" finished-at="2026-03-10T14:29:03 ICT" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:03 ICT" name="tearDown" finished-at="2026-03-10T14:29:03 ICT" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:03 ICT" name="setUp" finished-at="2026-03-10T14:29:05 ICT" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginLockedUser()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:05 ICT" name="testLoginLockedUser" description="Đăng nhập với tài khoản bị khóa (locked_out_user)" finished-at="2026-03-10T14:29:06 ICT" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:06 ICT" name="tearDown" finished-at="2026-03-10T14:29:07 ICT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:07 ICT" name="setUp" finished-at="2026-03-10T14:29:08 ICT" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:08 ICT" name="testLoginSuccess" description="Đăng nhập thành công với user/pass hợp lệ" finished-at="2026-03-10T14:29:10 ICT" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:10 ICT" name="tearDown" finished-at="2026-03-10T14:29:11 ICT" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:11 ICT" name="setUp" finished-at="2026-03-10T14:29:13 ICT" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:13 ICT" name="testLoginWrongPassword" description="Đăng nhập với mật khẩu sai" finished-at="2026-03-10T14:29:14 ICT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@1ea9f6af]" started-at="2026-03-10T14:29:14 ICT" name="tearDown" finished-at="2026-03-10T14:29:14 ICT" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Bai1.2 Login Test Suite -->
+</testng-results>

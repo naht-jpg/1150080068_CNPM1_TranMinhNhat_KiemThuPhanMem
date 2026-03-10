@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T13:16:40 ICT" name="Bai1 Selenium Suite" finished-at="2026-03-10T13:17:21 ICT" duration-ms="40931">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T13:16:40 ICT" name="Title Test" finished-at="2026-03-10T13:17:21 ICT" duration-ms="40931">
+      <class name="dtm.TitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:41 ICT" name="setUp" finished-at="2026-03-10T13:16:46 ICT" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAcceptedUsernamesDisplayed()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:46 ICT" name="testAcceptedUsernamesDisplayed" description="Kiem thu danh sach accepted usernames hien thi" finished-at="2026-03-10T13:16:46 ICT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptedUsernamesDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:46 ICT" name="tearDown" finished-at="2026-03-10T13:16:47 ICT" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:47 ICT" name="setUp" finished-at="2026-03-10T13:16:49 ICT" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputPlaceholders()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:49 ICT" name="testInputPlaceholders" description="Kiem thu placeholder cua cac truong input" finished-at="2026-03-10T13:16:50 ICT" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputPlaceholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:50 ICT" name="tearDown" finished-at="2026-03-10T13:16:50 ICT" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:50 ICT" name="setUp" finished-at="2026-03-10T13:16:52 ICT" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFormDisplayed()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:52 ICT" name="testLoginFormDisplayed" description="Kiem thu form dang nhap co hien thi hay khong" finished-at="2026-03-10T13:16:53 ICT" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFormDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:53 ICT" name="tearDown" finished-at="2026-03-10T13:16:54 ICT" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:54 ICT" name="setUp" finished-at="2026-03-10T13:16:56 ICT" duration-ms="2706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithEmptyFields()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:56 ICT" name="testLoginWithEmptyFields" description="Kiem thu dang nhap khi de trong username va password" finished-at="2026-03-10T13:16:57 ICT" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:57 ICT" name="tearDown" finished-at="2026-03-10T13:16:57 ICT" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:16:57 ICT" name="setUp" finished-at="2026-03-10T13:17:00 ICT" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithInvalidCredentials()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:00 ICT" name="testLoginWithInvalidCredentials" description="Kiem thu dang nhap voi thong tin khong hop le" finished-at="2026-03-10T13:17:01 ICT" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:01 ICT" name="tearDown" finished-at="2026-03-10T13:17:01 ICT" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:01 ICT" name="setUp" finished-at="2026-03-10T13:17:04 ICT" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:04 ICT" name="testLoginWithValidCredentials" description="Kiem thu dang nhap voi thong tin hop le" finished-at="2026-03-10T13:17:05 ICT" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:05 ICT" name="tearDown" finished-at="2026-03-10T13:17:05 ICT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:05 ICT" name="setUp" finished-at="2026-03-10T13:17:08 ICT" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogoDisplayed()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:08 ICT" name="testLogoDisplayed" description="Kiem thu logo trang web hien thi" finished-at="2026-03-10T13:17:08 ICT" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:08 ICT" name="tearDown" finished-at="2026-03-10T13:17:09 ICT" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:09 ICT" name="setUp" finished-at="2026-03-10T13:17:12 ICT" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPageSource()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:12 ICT" name="testPageSource" description="Kiem thu nguon trang (page source)" finished-at="2026-03-10T13:17:12 ICT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageSource -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:12 ICT" name="tearDown" finished-at="2026-03-10T13:17:12 ICT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:12 ICT" name="setUp" finished-at="2026-03-10T13:17:14 ICT" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordFieldType()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:14 ICT" name="testPasswordFieldType" description="Kiem thu truong password co type la password" finished-at="2026-03-10T13:17:15 ICT" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordFieldType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:15 ICT" name="tearDown" finished-at="2026-03-10T13:17:16 ICT" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:16 ICT" name="setUp" finished-at="2026-03-10T13:17:19 ICT" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:19 ICT" name="testTitle" description="Kiem thu tieu de trang chu" finished-at="2026-03-10T13:17:19 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:19 ICT" name="tearDown" finished-at="2026-03-10T13:17:19 ICT" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:19 ICT" name="setUp" finished-at="2026-03-10T13:17:21 ICT" duration-ms="1916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testURL()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:21 ICT" name="testURL" description="Kiem thu URL trang chu" finished-at="2026-03-10T13:17:21 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.TitleTest@1dde4cb2]" started-at="2026-03-10T13:17:21 ICT" name="tearDown" finished-at="2026-03-10T13:17:21 ICT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.TitleTest -->
+    </test> <!-- Title Test -->
+  </suite> <!-- Bai1 Selenium Suite -->
+</testng-results>

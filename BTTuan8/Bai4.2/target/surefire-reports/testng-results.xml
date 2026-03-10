@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-11T00:19:21 ICT" name="Bai4.2 - Basis Path Test Cases" finished-at="2026-03-11T00:19:21 ICT" duration-ms="86">
+    <groups>
+    </groups>
+    <test started-at="2026-03-11T00:19:21 ICT" name="PhiShip Basis Path Tests" finished-at="2026-03-11T00:19:21 ICT" duration-ms="86">
+      <class name="dtm.PhiShipBasisPathTest">
+        <test-method signature="testPath1_InvalidWeight()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath1_InvalidWeight" description="Path 1: Trọng lượng không hợp lệ" finished-at="2026-03-11T00:19:21 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath1_InvalidWeight -->
+        <test-method signature="testPath2_NoiThanhNheKhongMember()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath2_NoiThanhNheKhongMember" description="Path 2: Nội thành, &lt;= 5kg, không member" finished-at="2026-03-11T00:19:21 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath2_NoiThanhNheKhongMember -->
+        <test-method signature="testPath3_NoiThanhNangKhongMember()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath3_NoiThanhNangKhongMember" description="Path 3: Nội thành, &gt; 5kg, không member" finished-at="2026-03-11T00:19:21 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath3_NoiThanhNangKhongMember -->
+        <test-method signature="testPath4_NoiThanhNangMember()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath4_NoiThanhNangMember" description="Path 4: Nội thành, &gt; 5kg, là member" finished-at="2026-03-11T00:19:21 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath4_NoiThanhNangMember -->
+        <test-method signature="testPath5_NgoaiThanhNheKhongMember()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath5_NgoaiThanhNheKhongMember" description="Path 5: Ngoại thành, &lt;= 3kg, không member" finished-at="2026-03-11T00:19:21 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath5_NgoaiThanhNheKhongMember -->
+        <test-method signature="testPath6_NgoaiThanhNangKhongMember()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath6_NgoaiThanhNangKhongMember" description="Path 6: Ngoại thành, &gt; 3kg, không member" finished-at="2026-03-11T00:19:21 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath6_NgoaiThanhNangKhongMember -->
+        <test-method signature="testPath7_TinhKhacNheKhongMember()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath7_TinhKhacNheKhongMember" description="Path 7: Tỉnh khác, &lt;= 2kg, không member" finished-at="2026-03-11T00:19:21 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath7_TinhKhacNheKhongMember -->
+        <test-method signature="testPath8_TinhKhacNangKhongMember()[pri:0, instance:dtm.PhiShipBasisPathTest@78aab498]" started-at="2026-03-11T00:19:21 ICT" name="testPath8_TinhKhacNangKhongMember" description="Path 8: Tỉnh khác, &gt; 2kg, không member" finished-at="2026-03-11T00:19:21 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath8_TinhKhacNangKhongMember -->
+      </class> <!-- dtm.PhiShipBasisPathTest -->
+    </test> <!-- PhiShip Basis Path Tests -->
+  </suite> <!-- Bai4.2 - Basis Path Test Cases -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T18:06:36 ICT" name="Branch Coverage Suite" finished-at="2026-03-10T18:06:36 ICT" duration-ms="171">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T18:06:36 ICT" name="XepLoai Branch Coverage Test" finished-at="2026-03-10T18:06:36 ICT" duration-ms="171">
+      <class name="dtm.XepLoaiTest">
+        <test-method signature="testTC1_DiemAm_DiemKhongHopLe()[pri:0, instance:dtm.XepLoaiTest@4313f5bc]" started-at="2026-03-10T18:06:36 ICT" name="testTC1_DiemAm_DiemKhongHopLe" finished-at="2026-03-10T18:06:36 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC1_DiemAm_DiemKhongHopLe -->
+        <test-method signature="testTC2_Diem9_Gioi()[pri:0, instance:dtm.XepLoaiTest@4313f5bc]" started-at="2026-03-10T18:06:36 ICT" name="testTC2_Diem9_Gioi" finished-at="2026-03-10T18:06:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC2_Diem9_Gioi -->
+        <test-method signature="testTC3_Diem7_Kha()[pri:0, instance:dtm.XepLoaiTest@4313f5bc]" started-at="2026-03-10T18:06:36 ICT" name="testTC3_Diem7_Kha" finished-at="2026-03-10T18:06:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC3_Diem7_Kha -->
+        <test-method signature="testTC4_Diem6_TrungBinh()[pri:0, instance:dtm.XepLoaiTest@4313f5bc]" started-at="2026-03-10T18:06:36 ICT" name="testTC4_Diem6_TrungBinh" finished-at="2026-03-10T18:06:36 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC4_Diem6_TrungBinh -->
+        <test-method signature="testTC5_Diem3_CoThiLai_ThiLai()[pri:0, instance:dtm.XepLoaiTest@4313f5bc]" started-at="2026-03-10T18:06:36 ICT" name="testTC5_Diem3_CoThiLai_ThiLai" finished-at="2026-03-10T18:06:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC5_Diem3_CoThiLai_ThiLai -->
+        <test-method signature="testTC6_Diem3_KhongThiLai_YeuHocLai()[pri:0, instance:dtm.XepLoaiTest@4313f5bc]" started-at="2026-03-10T18:06:36 ICT" name="testTC6_Diem3_KhongThiLai_YeuHocLai" finished-at="2026-03-10T18:06:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC6_Diem3_KhongThiLai_YeuHocLai -->
+      </class> <!-- dtm.XepLoaiTest -->
+    </test> <!-- XepLoai Branch Coverage Test -->
+  </suite> <!-- Branch Coverage Suite -->
+</testng-results>

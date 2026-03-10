@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T23:39:42 ICT" name="Bai4.1 - CC va Basis Path" finished-at="2026-03-10T23:39:42 ICT" duration-ms="110">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T23:39:42 ICT" name="TinhPhiShip Basis Path Tests" finished-at="2026-03-10T23:39:42 ICT" duration-ms="110">
+      <class name="dtm.TinhPhiShipTest">
+        <test-method signature="testPath1_NoiThanh_Nang_Member()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath1_NoiThanh_Nang_Member" finished-at="2026-03-10T23:39:42 ICT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath1_NoiThanh_Nang_Member -->
+        <test-method signature="testPath2_TrongLuongAm_ThrowException()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath2_TrongLuongAm_ThrowException" finished-at="2026-03-10T23:39:42 ICT" duration-ms="2" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Trong luong phai > 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Trong luong phai > 0
+at dtm.TinhPhiShip.tinhPhiShip(TinhPhiShip.java:6)
+at dtm.TinhPhiShipTest.testPath2_TrongLuongAm_ThrowException(TinhPhiShipTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath2_TrongLuongAm_ThrowException -->
+        <test-method signature="testPath3_NgoaiThanh_Nang_Member()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath3_NgoaiThanh_Nang_Member" finished-at="2026-03-10T23:39:42 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath3_NgoaiThanh_Nang_Member -->
+        <test-method signature="testPath4_NoiThanh_Nhe_Member()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath4_NoiThanh_Nhe_Member" finished-at="2026-03-10T23:39:42 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath4_NoiThanh_Nhe_Member -->
+        <test-method signature="testPath5_TinhKhac_Nang_Member()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath5_TinhKhac_Nang_Member" finished-at="2026-03-10T23:39:42 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath5_TinhKhac_Nang_Member -->
+        <test-method signature="testPath6_NgoaiThanh_Nhe_Member()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath6_NgoaiThanh_Nhe_Member" finished-at="2026-03-10T23:39:42 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath6_NgoaiThanh_Nhe_Member -->
+        <test-method signature="testPath7_TinhKhac_Nhe_Member()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath7_TinhKhac_Nhe_Member" finished-at="2026-03-10T23:39:42 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath7_TinhKhac_Nhe_Member -->
+        <test-method signature="testPath8_NoiThanh_Nang_KhongMember()[pri:0, instance:dtm.TinhPhiShipTest@1e802ef9]" started-at="2026-03-10T23:39:42 ICT" name="testPath8_NoiThanh_Nang_KhongMember" finished-at="2026-03-10T23:39:42 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPath8_NoiThanh_Nang_KhongMember -->
+      </class> <!-- dtm.TinhPhiShipTest -->
+    </test> <!-- TinhPhiShip Basis Path Tests -->
+  </suite> <!-- Bai4.1 - CC va Basis Path -->
+</testng-results>

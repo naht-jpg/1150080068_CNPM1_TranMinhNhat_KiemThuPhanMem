@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai4.2 - Basis Path Test Cases">
+    <test name="PhiShip Basis Path Tests">
+        <classes>
+            <class name="dtm.PhiShipBasisPathTest"/>
+        </classes>
+    </test>
+</suite>

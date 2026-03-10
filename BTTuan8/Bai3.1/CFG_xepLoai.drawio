@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net" modified="2026-03-10T00:00:00.000Z" agent="5.0" etag="cfg" version="24.0.0" type="device">
+  <diagram id="cfg_xepLoai" name="CFG - xepLoai">
+    <mxGraphModel dx="1422" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ===== NODES ===== -->
+
+        <!-- Node 1: Start -->
+        <mxCell id="n1" value="&lt;b&gt;Node 1&lt;/b&gt;&lt;br&gt;Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="200" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 2: Dieu kien 1 - Diamond -->
+        <mxCell id="n2" value="&lt;b&gt;Node 2 - DK1&lt;/b&gt;&lt;br&gt;diemTB &amp;lt; 0 || diemTB &amp;gt; 10" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="210" y="110" width="380" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 3: return "Diem khong hop le" -->
+        <mxCell id="n3" value="&lt;b&gt;Node 3&lt;/b&gt;&lt;br&gt;return &amp;quot;Diem khong hop le&amp;quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="135" width="280" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 4: Dieu kien 2 - Diamond -->
+        <mxCell id="n4" value="&lt;b&gt;Node 4 - DK2&lt;/b&gt;&lt;br&gt;diemTB &amp;gt;= 8.5" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="280" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 5: return "Gioi" -->
+        <mxCell id="n5" value="&lt;b&gt;Node 5&lt;/b&gt;&lt;br&gt;return &amp;quot;Gioi&amp;quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="275" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 6: Dieu kien 3 - Diamond -->
+        <mxCell id="n6" value="&lt;b&gt;Node 6 - DK3&lt;/b&gt;&lt;br&gt;diemTB &amp;gt;= 7.0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="280" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 7: return "Kha" -->
+        <mxCell id="n7" value="&lt;b&gt;Node 7&lt;/b&gt;&lt;br&gt;return &amp;quot;Kha&amp;quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="415" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 8: Dieu kien 4 - Diamond -->
+        <mxCell id="n8" value="&lt;b&gt;Node 8 - DK4&lt;/b&gt;&lt;br&gt;diemTB &amp;gt;= 5.5" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="280" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 9: return "Trung Binh" -->
+        <mxCell id="n9" value="&lt;b&gt;Node 9&lt;/b&gt;&lt;br&gt;return &amp;quot;Trung Binh&amp;quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="555" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 10: Dieu kien 5 - Diamond -->
+        <mxCell id="n10" value="&lt;b&gt;Node 10 - DK5&lt;/b&gt;&lt;br&gt;coThiLai" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="240" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 11: return "Thi lai" -->
+        <mxCell id="n11" value="&lt;b&gt;Node 11&lt;/b&gt;&lt;br&gt;return &amp;quot;Thi lai&amp;quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="695" width="220" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 12: return "Yeu - Hoc lai" -->
+        <mxCell id="n12" value="&lt;b&gt;Node 12&lt;/b&gt;&lt;br&gt;return &amp;quot;Yeu - Hoc lai&amp;quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="270" y="820" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 13: End -->
+        <mxCell id="n13" value="&lt;b&gt;Node 13&lt;/b&gt;&lt;br&gt;End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="940" width="220" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== EDGES ===== -->
+
+        <!-- Edge: Node 1 -> Node 2 -->
+        <mxCell id="e_1_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="n1" target="n2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 2 -> Node 3 (True) -->
+        <mxCell id="e_2_3" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;fontColor=#009900;fontStyle=1;fontSize=11;" edge="1" source="n2" target="n3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 2 -> Node 4 (False) -->
+        <mxCell id="e_2_4" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;fontColor=#CC0000;fontStyle=1;fontSize=11;" edge="1" source="n2" target="n4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 3 -> Node 13 -->
+        <mxCell id="e_3_13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="n3" target="n13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="160"/>
+              <mxPoint x="1060" y="960"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Edge: Node 4 -> Node 5 (True) -->
+        <mxCell id="e_4_5" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;fontColor=#009900;fontStyle=1;fontSize=11;" edge="1" source="n4" target="n5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 4 -> Node 6 (False) -->
+        <mxCell id="e_4_6" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;fontColor=#CC0000;fontStyle=1;fontSize=11;" edge="1" source="n4" target="n6" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 5 -> Node 13 -->
+        <mxCell id="e_5_13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="n5" target="n13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="300"/>
+              <mxPoint x="1060" y="960"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Edge: Node 6 -> Node 7 (True) -->
+        <mxCell id="e_6_7" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;fontColor=#009900;fontStyle=1;fontSize=11;" edge="1" source="n6" target="n7" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 6 -> Node 8 (False) -->
+        <mxCell id="e_6_8" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;fontColor=#CC0000;fontStyle=1;fontSize=11;" edge="1" source="n6" target="n8" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 7 -> Node 13 -->
+        <mxCell id="e_7_13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="n7" target="n13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="440"/>
+              <mxPoint x="1060" y="960"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Edge: Node 8 -> Node 9 (True) -->
+        <mxCell id="e_8_9" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;fontColor=#009900;fontStyle=1;fontSize=11;" edge="1" source="n8" target="n9" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 8 -> Node 10 (False) -->
+        <mxCell id="e_8_10" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;fontColor=#CC0000;fontStyle=1;fontSize=11;" edge="1" source="n8" target="n10" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 9 -> Node 13 -->
+        <mxCell id="e_9_13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="n9" target="n13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="580"/>
+              <mxPoint x="1060" y="960"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Edge: Node 10 -> Node 11 (True) -->
+        <mxCell id="e_10_11" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;fontColor=#009900;fontStyle=1;fontSize=11;" edge="1" source="n10" target="n11" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 10 -> Node 12 (False) -->
+        <mxCell id="e_10_12" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;fontColor=#CC0000;fontStyle=1;fontSize=11;" edge="1" source="n10" target="n12" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge: Node 11 -> Node 13 -->
+        <mxCell id="e_11_13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="n11" target="n13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="720"/>
+              <mxPoint x="1060" y="960"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Edge: Node 12 -> Node 13 -->
+        <mxCell id="e_12_13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="n12" target="n13" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

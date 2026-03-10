@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai4.1 - CC va Basis Path">
+    <test name="TinhPhiShip Basis Path Tests">
+        <classes>
+            <class name="dtm.TinhPhiShipTest"/>
+        </classes>
+    </test>
+</suite>

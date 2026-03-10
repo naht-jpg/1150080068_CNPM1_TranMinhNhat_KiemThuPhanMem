@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:42:35 ICT" name="Parallel Suite" finished-at="2026-03-10T15:42:52 ICT" duration-ms="17657">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:42:35 ICT" name="Parallel Test" finished-at="2026-03-10T15:42:52 ICT" duration-ms="17657">
+      <class name="dtm.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:35 ICT" name="setUp" finished-at="2026-03-10T15:42:40 ICT" duration-ms="5517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToCart()[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:40 ICT" name="testAddToCart" finished-at="2026-03-10T15:42:41 ICT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:41 ICT" name="tearDown" finished-at="2026-03-10T15:42:41 ICT" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:41 ICT" name="setUp" finished-at="2026-03-10T15:42:47 ICT" duration-ms="5904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartPageShowsProduct()[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:47 ICT" name="testCartPageShowsProduct" finished-at="2026-03-10T15:42:48 ICT" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPageShowsProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:48 ICT" name="tearDown" finished-at="2026-03-10T15:42:48 ICT" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:48 ICT" name="setUp" finished-at="2026-03-10T15:42:52 ICT" duration-ms="3533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveFromCart()[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:52 ICT" name="testRemoveFromCart" finished-at="2026-03-10T15:42:52 ICT" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.CartTest@5ffead27]" started-at="2026-03-10T15:42:52 ICT" name="tearDown" finished-at="2026-03-10T15:42:52 ICT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.CartTest -->
+      <class name="dtm.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:35 ICT" name="setUp" finished-at="2026-03-10T15:42:39 ICT" duration-ms="4438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginLockedUser()[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:39 ICT" name="testLoginLockedUser" finished-at="2026-03-10T15:42:41 ICT" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:41 ICT" name="tearDown" finished-at="2026-03-10T15:42:41 ICT" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:41 ICT" name="setUp" finished-at="2026-03-10T15:42:44 ICT" duration-ms="3213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:44 ICT" name="testLoginSuccess" finished-at="2026-03-10T15:42:47 ICT" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:47 ICT" name="tearDown" finished-at="2026-03-10T15:42:48 ICT" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:48 ICT" name="setUp" finished-at="2026-03-10T15:42:51 ICT" duration-ms="2992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:51 ICT" name="testLoginWrongPassword" finished-at="2026-03-10T15:42:51 ICT" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dtm.LoginTest@43195e57]" started-at="2026-03-10T15:42:51 ICT" name="tearDown" finished-at="2026-03-10T15:42:52 ICT" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.LoginTest -->
+    </test> <!-- Parallel Test -->
+  </suite> <!-- Parallel Suite -->
+</testng-results>

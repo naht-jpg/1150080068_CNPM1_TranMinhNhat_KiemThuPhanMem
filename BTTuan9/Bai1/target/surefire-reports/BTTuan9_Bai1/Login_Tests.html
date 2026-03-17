@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Login_Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login_Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 17 16:00:32 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>42 seconds (42407 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLockedOutUser()'><b>testLockedOutUser</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Tài khoản bị khóa không thể đăng nhập</td>
+<td></td>
+<td>15</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLogin()'><b>testLogin</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Kiểm thử đăng nhập với nhiều bộ dữ liệu<br>Parameters: standard_user, wrong_pass, false, Sai mật khẩu</td>
+<td></td>
+<td>2</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLogin()'><b>testLogin</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Kiểm thử đăng nhập với nhiều bộ dữ liệu<br>Parameters: problem_user, secret_sauce, true, Đăng nhập thành công - problem_user</td>
+<td></td>
+<td>4</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLogin()'><b>testLogin</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Kiểm thử đăng nhập với nhiều bộ dữ liệu<br>Parameters: , , false, Để trống username và password</td>
+<td></td>
+<td>4</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLogin()'><b>testLogin</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Kiểm thử đăng nhập với nhiều bộ dữ liệu<br>Parameters: performance_glitch_user, secret_sauce, true, Đăng nhập thành công - performance_glitch_user</td>
+<td></td>
+<td>6</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLoginSuccess()'><b>testLoginSuccess</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Đăng nhập thành công với tài khoản hợp lệ</td>
+<td></td>
+<td>3</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLogin()'><b>testLogin</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Kiểm thử đăng nhập với nhiều bộ dữ liệu<br>Parameters: locked_out_user, secret_sauce, false, Tài khoản bị khóa</td>
+<td></td>
+<td>3</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLoginEmptyFields()'><b>testLoginEmptyFields</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Đăng nhập thất bại khi để trống thông tin</td>
+<td></td>
+<td>3</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLogin()'><b>testLogin</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Kiểm thử đăng nhập với nhiều bộ dữ liệu<br>Parameters: standard_user, secret_sauce, true, Đăng nhập thành công - standard_user</td>
+<td></td>
+<td>2</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+<tr>
+<td title='dtm.tests.TC_LoginTest.testLogin()'><b>testLogin</b><br>Test class: dtm.tests.TC_LoginTest<br>Test method: Kiểm thử đăng nhập với nhiều bộ dữ liệu<br>Parameters: standard_user, , false, Để trống password</td>
+<td></td>
+<td>1</td>
+<td>dtm.tests.TC_LoginTest@7714e963</td></tr>
+</table><p>
+</body>
+</html>

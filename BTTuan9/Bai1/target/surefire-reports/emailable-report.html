@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">BTTuan9_Bai1</th></tr>
+<tr><td><a href="#t0">Login_Tests</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">42,407</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Inventory_Tests</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">22,245</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Checkout_Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">51,986</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">17</th><th class="num">0</th><th class="num">0</th><th class="num attn">8</th><th class="num">116,638</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BTTuan9_Bai1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login_Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">dtm.tests.TC_LoginTest</td><td><a href="#m0">testLockedOutUser</a></td><td rowspan="1">1773738043984</td><td rowspan="1">15413</td></tr><tr class="passedeven"><td><a href="#m1">testLogin</a></td><td rowspan="7">1773738065622</td><td rowspan="7">2050</td></tr><tr class="passedeven"><td><a href="#m2">testLogin</a></td></tr><tr class="passedeven"><td><a href="#m3">testLogin</a></td></tr><tr class="passedeven"><td><a href="#m4">testLogin</a></td></tr><tr class="passedeven"><td><a href="#m5">testLogin</a></td></tr><tr class="passedeven"><td><a href="#m6">testLogin</a></td></tr><tr class="passedeven"><td><a href="#m7">testLogin</a></td></tr><tr class="passedeven"><td><a href="#m8">testLoginEmptyFields</a></td><td rowspan="1">1773738043940</td><td rowspan="1">3427</td></tr><tr class="passedeven"><td><a href="#m9">testLoginSuccess</a></td><td rowspan="1">1773738050610</td><td rowspan="1">3143</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Inventory_Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">dtm.tests.TC_InventoryTest</td><td><a href="#m10">testAddMultipleProducts</a></td><td rowspan="1">1773738076520</td><td rowspan="1">15005</td></tr><tr class="failedeven"><td><a href="#m11">testRemoveProductFromCart</a></td><td rowspan="1">1773738081486</td><td rowspan="1">14641</td></tr><tr><th colspan="4">Inventory_Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">dtm.tests.TC_InventoryTest</td><td><a href="#m12">testAddProductToCart</a></td><td rowspan="3">1773738076472</td><td rowspan="3">2314</td></tr><tr class="passedeven"><td><a href="#m13">testAddProductToCart</a></td></tr><tr class="passedeven"><td><a href="#m14">testAddProductToCart</a></td></tr><tr class="passedeven"><td><a href="#m15">testInventoryPageLoaded</a></td><td rowspan="1">1773738076532</td><td rowspan="1">2771</td></tr><tr class="passedeven"><td><a href="#m16">testSortByNameAZ</a></td><td rowspan="1">1773738089373</td><td rowspan="1">4399</td></tr><tr class="passedeven"><td><a href="#m17">testSortByPriceLowToHigh</a></td><td rowspan="1">1773738093773</td><td rowspan="1">3481</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Checkout_Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="6">dtm.tests.TC_CheckoutTest</td><td><a href="#m18">testCartContainsAddedProduct</a></td><td rowspan="1">1773738100087</td><td rowspan="1">3690</td></tr><tr class="failedeven"><td><a href="#m19">testCheckoutStepOne</a></td><td rowspan="4">1773738136889</td><td rowspan="4">12446</td></tr><tr class="failedeven"><td><a href="#m20">testCheckoutStepOne</a></td></tr><tr class="failedeven"><td><a href="#m21">testCheckoutStepOne</a></td></tr><tr class="failedeven"><td><a href="#m22">testCheckoutStepOne</a></td></tr><tr class="failedeven"><td><a href="#m23">testFullCheckoutFlow</a></td><td rowspan="1">1773738099516</td><td rowspan="1">14423</td></tr><tr><th colspan="4">Checkout_Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">dtm.tests.TC_CheckoutTest</td><td><a href="#m24">testRemoveProductFromCart</a></td><td rowspan="1">1773738105461</td><td rowspan="1">23870</td></tr></tbody>
+</table>
+<h2>Login_Tests</h2><h3 id="m0">dtm.tests.TC_LoginTest#testLockedOutUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">dtm.tests.TC_LoginTest#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>standard_user</td><td>wrong_pass</td><td>false</td><td>Sai mật khẩu</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">dtm.tests.TC_LoginTest#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>problem_user</td><td>secret_sauce</td><td>true</td><td>Đăng nhập thành công - problem_user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">dtm.tests.TC_LoginTest#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td></td><td></td><td>false</td><td>Để trống username và password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">dtm.tests.TC_LoginTest#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>performance_glitch_user</td><td>secret_sauce</td><td>true</td><td>Đăng nhập thành công - performance_glitch_user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">dtm.tests.TC_LoginTest#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>locked_out_user</td><td>secret_sauce</td><td>false</td><td>Tài khoản bị khóa</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">dtm.tests.TC_LoginTest#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>standard_user</td><td>secret_sauce</td><td>true</td><td>Đăng nhập thành công - standard_user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">dtm.tests.TC_LoginTest#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>standard_user</td><td></td><td>false</td><td>Để trống password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">dtm.tests.TC_LoginTest#testLoginEmptyFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">dtm.tests.TC_LoginTest#testLoginSuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Inventory_Tests</h2><h3 id="m10">dtm.tests.TC_InventoryTest#testAddMultipleProducts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Giỏ hàng phải có 2 sản phẩm expected [2] but found [0]
+	at dtm.tests.TC_InventoryTest.testAddMultipleProducts(TC_InventoryTest.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">dtm.tests.TC_InventoryTest#testRemoveProductFromCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1] but found [0]
+	at dtm.tests.TC_InventoryTest.testRemoveProductFromCart(TC_InventoryTest.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">dtm.tests.TC_InventoryTest#testAddProductToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sauce Labs Backpack</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">dtm.tests.TC_InventoryTest#testAddProductToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sauce Labs Bolt T-Shirt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">dtm.tests.TC_InventoryTest#testAddProductToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sauce Labs Bike Light</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">dtm.tests.TC_InventoryTest#testInventoryPageLoaded</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">dtm.tests.TC_InventoryTest#testSortByNameAZ</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">dtm.tests.TC_InventoryTest#testSortByPriceLowToHigh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Checkout_Tests</h2><h3 id="m18">dtm.tests.TC_CheckoutTest#testCartContainsAddedProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Trang giỏ hàng phải hiển thị expected [true] but found [false]
+	at dtm.tests.TC_CheckoutTest.testCartContainsAddedProduct(TC_CheckoutTest.java:30)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">dtm.tests.TC_CheckoutTest#testCheckoutStepOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Le</td><td>Thi C</td><td></td><td>false</td><td>Thiếu Postal Code</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">java.lang.AssertionError: [Thiếu Postal Code] Phải hiển thị lỗi khi thiếu thông tin expected [true] but found [false]
+	at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:69)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">dtm.tests.TC_CheckoutTest#testCheckoutStepOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Nguyen</td><td>Van A</td><td>70000</td><td>true</td><td>Thông tin hợp lệ</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: checkout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\vvkgh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58400}, goog:processID: 32448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58400/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7040d0bb7f0e197ee1243ea5b2c64
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at dtm.base.BasePage.waitAndClick(BasePage.java:30)
+	at dtm.pages.CartPage.clickCheckout(CartPage.java:67)
+	at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">dtm.tests.TC_CheckoutTest#testCheckoutStepOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td></td><td>Van B</td><td>70000</td><td>false</td><td>Thiếu First Name</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">java.lang.AssertionError: Phải ở bước 1 thanh toán expected [true] but found [false]
+	at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">dtm.tests.TC_CheckoutTest#testCheckoutStepOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Tran</td><td></td><td>70000</td><td>false</td><td>Thiếu Last Name</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">java.lang.AssertionError: [Thiếu Last Name] Phải hiển thị lỗi khi thiếu thông tin expected [true] but found [false]
+	at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:69)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">dtm.tests.TC_CheckoutTest#testFullCheckoutFlow</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: checkout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\vvkgh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58399}, goog:processID: 26164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58399/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1193753c0b1167f0b352d274b4e6f596
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at dtm.base.BasePage.waitAndClick(BasePage.java:30)
+	at dtm.pages.CartPage.clickCheckout(CartPage.java:67)
+	at dtm.tests.TC_CheckoutTest.testFullCheckoutFlow(TC_CheckoutTest.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">dtm.tests.TC_CheckoutTest#testRemoveProductFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

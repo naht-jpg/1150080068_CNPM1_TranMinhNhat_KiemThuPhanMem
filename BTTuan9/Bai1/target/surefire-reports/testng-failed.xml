@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [BTTuan9_Bai1]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="env" value="dev"/>
+  <test thread-count="3" parallel="methods" name="Inventory_Tests(failed)" verbose="0">
+    <classes>
+      <class name="dtm.tests.TC_InventoryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAddMultipleProducts"/>
+          <include name="setUp"/>
+          <include name="testRemoveProductFromCart"/>
+        </methods>
+      </class> <!-- dtm.tests.TC_InventoryTest -->
+    </classes>
+  </test> <!-- Inventory_Tests(failed) -->
+  <test thread-count="3" parallel="methods" name="Checkout_Tests(failed)" verbose="0">
+    <classes>
+      <class name="dtm.tests.TC_CheckoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCheckoutStepOne" invocation-numbers="0 1 2 3"/>
+          <include name="testFullCheckoutFlow"/>
+          <include name="testCartContainsAddedProduct"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- dtm.tests.TC_CheckoutTest -->
+    </classes>
+  </test> <!-- Checkout_Tests(failed) -->
+</suite> <!-- Failed suite [BTTuan9_Bai1] -->

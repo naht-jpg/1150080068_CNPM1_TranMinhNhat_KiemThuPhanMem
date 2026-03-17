@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BTTuan9_Bai3_Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="env" value="dev"/>
+  <test thread-count="5" name="Negative_Cases(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.LoginExcelTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="generateTestData"/>
+          <include name="tearDown"/>
+          <include name="testBoundaryCases" invocation-numbers="4"/>
+          <include name="setTestName"/>
+        </methods>
+      </class> <!-- tests.LoginExcelTest -->
+    </classes>
+  </test> <!-- Negative_Cases(failed) -->
+</suite> <!-- Failed suite [BTTuan9_Bai3_Regression] -->

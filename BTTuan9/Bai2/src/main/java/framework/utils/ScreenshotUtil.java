@@ -16,14 +16,15 @@ import java.time.format.DateTimeFormatter;
  */
 public class ScreenshotUtil {
 
-    private static final String SCREENSHOT_DIR = "screenshots";
+    private static final String SCREENSHOT_DIR = "target/screenshots";
     private static final DateTimeFormatter FORMATTER =
             DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
 
     private ScreenshotUtil() {}
 
     /**
-     * Chụp screenshot và lưu vào thư mục screenshots/.
+     * Chụp screenshot và lưu vào thư mục target/screenshots/.
+     * Tên file: {testName}_{yyyyMMdd_HHmmss}.png
      * @param driver   WebDriver hiện tại
      * @param testName Tên test method (dùng làm tên file)
      * @return Đường dẫn tới file screenshot, hoặc "" nếu thất bại

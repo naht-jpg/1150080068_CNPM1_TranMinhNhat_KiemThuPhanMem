@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T16:40:56 ICT" name="BTTuan9_Bai3_Regression" finished-at="2026-03-17T16:42:10 ICT" duration-ms="73655">
+    <groups>
+      <group name="regression">
+        <method signature="LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" name="testBoundaryCases" class="tests.LoginExcelTest"/>
+        <method signature="LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" name="testNegativeCases" class="tests.LoginExcelTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" name="testSmokeCases" class="tests.LoginExcelTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-17T16:40:56 ICT" name="Smoke_Cases" finished-at="2026-03-17T16:41:23 ICT" duration-ms="26582">
+      <class name="tests.LoginExcelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:40:57 ICT" name="setUp" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:04 ICT" duration-ms="7569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:04 ICT" name="setTestName" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:04 ICT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6a38e3d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:04 ICT" name="testSmokeCases" description="Smoke: đăng nhập thành công từ dữ liệu Excel" data-provider="smokeData" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:05 ICT" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập thành công - standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmokeCases -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:05 ICT" name="tearDown" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:05 ICT" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Đăng nhập thành công - standard_user status=SUCCESS method=LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:05 ICT" name="setUp" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:07 ICT" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:07 ICT" name="setTestName" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:07 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@28cf179c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:07 ICT" name="testSmokeCases" description="Smoke: đăng nhập thành công từ dữ liệu Excel" data-provider="smokeData" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:07 ICT" duration-ms="726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập thành công - problem_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmokeCases -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:07 ICT" name="tearDown" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:08 ICT" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Đăng nhập thành công - problem_user status=SUCCESS method=LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:08 ICT" name="setUp" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:11 ICT" duration-ms="2845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:11 ICT" name="setTestName" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:11 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@bdda8a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:11 ICT" name="testSmokeCases" description="Smoke: đăng nhập thành công từ dữ liệu Excel" data-provider="smokeData" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:18 ICT" duration-ms="7148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập thành công - performance_glitch_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmokeCases -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:18 ICT" name="tearDown" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:18 ICT" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Đăng nhập thành công - performance_glitch_user status=SUCCESS method=LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:18 ICT" name="setUp" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:22 ICT" duration-ms="4109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:22 ICT" name="testSmokeCases" description="Smoke: đăng nhập thành công từ dữ liệu Excel" data-provider="smokeData" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:23 ICT" duration-ms="688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập thành công - error_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmokeCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:22 ICT" name="setTestName" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:22 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3149409c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@10e31a9a]" started-at="2026-03-17T16:41:23 ICT" name="tearDown" test-instance-name="Đăng nhập thành công - error_user" finished-at="2026-03-17T16:41:23 ICT" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Đăng nhập thành công - error_user status=SUCCESS method=LoginExcelTest.testSmokeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@10e31a9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginExcelTest -->
+    </test> <!-- Smoke_Cases -->
+    <test started-at="2026-03-17T16:41:23 ICT" name="Negative_Cases" finished-at="2026-03-17T16:42:10 ICT" duration-ms="47058">
+      <class name="tests.LoginExcelTest">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:40:55 ICT" name="generateTestData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:40:56 ICT" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestData -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:23 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:25 ICT" duration-ms="1830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:25 ICT" name="testBoundaryCases" description="Boundary: kiểm tra giá trị biên từ dữ liệu Excel" data-provider="boundaryData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:27 ICT" duration-ms="1797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username chuỗi dài 102 ký tự]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:25 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:25 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1c421b0f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:27 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:27 ICT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Username chuỗi dài 102 ký tự status=SUCCESS method=LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:27 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:28 ICT" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:28 ICT" name="testBoundaryCases" description="Boundary: kiểm tra giá trị biên từ dữ liệu Excel" data-provider="boundaryData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:29 ICT" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user!@#$%^&*()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username chứa ký tự đặc biệt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:28 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:28 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4ce18cec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:29 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:29 ICT" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Username chứa ký tự đặc biệt status=SUCCESS method=LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:29 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:32 ICT" duration-ms="3320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:32 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:32 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2a9f8d47]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:32 ICT" name="testBoundaryCases" description="Boundary: kiểm tra giá trị biên từ dữ liệu Excel" data-provider="boundaryData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:33 ICT" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1'; --]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SQL Injection pattern]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCases -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:33 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:33 ICT" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SQL Injection pattern status=SUCCESS method=LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:33 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:38 ICT" duration-ms="5140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:38 ICT" name="testBoundaryCases" description="Boundary: kiểm tra giá trị biên từ dữ liệu Excel" data-provider="boundaryData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:39 ICT" duration-ms="677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nguyễnvănanh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mậtkhẩu123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username Unicode tiếng Việt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:38 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:38 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@51297528]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:39 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:39 ICT" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Username Unicode tiếng Việt status=SUCCESS method=LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:39 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:42 ICT" duration-ms="2929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:42 ICT" name="testBoundaryCases" description="Boundary: kiểm tra giá trị biên từ dữ liệu Excel" data-provider="boundaryData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:43 ICT" duration-ms="704" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password chỉ là dấu cách]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[Password chỉ là dấu cách] Lỗi phải chứa: "Username and password" | Thực tế: "Epic sadface: Password is required" expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [Password chỉ là dấu cách] Lỗi phải chứa: "Username and password" | Thực tế: "Epic sadface: Password is required" expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.LoginExcelTest.testBoundaryCases(LoginExcelTest.java:179)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:42 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:42 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5d3f8661]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:43 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:43 ICT" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Password chỉ là dấu cách status=FAILURE method=LoginExcelTest.testBoundaryCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:43 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:44 ICT" duration-ms="1255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:44 ICT" name="testNegativeCases" description="Negative: đăng nhập thất bại từ dữ liệu Excel" data-provider="negativeData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:45 ICT" duration-ms="802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[locked out]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tài khoản bị khóa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:44 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:44 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1df9f7c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:45 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:45 ICT" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tài khoản bị khóa status=SUCCESS method=LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:45 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:48 ICT" duration-ms="2646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:48 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:48 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4b5aa48b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:48 ICT" name="testNegativeCases" description="Negative: đăng nhập thất bại từ dữ liệu Excel" data-provider="negativeData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:49 ICT" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sai mật khẩu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCases -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:49 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:49 ICT" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sai mật khẩu status=SUCCESS method=LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:49 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:56 ICT" duration-ms="6937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:56 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:56 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@51c008fd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:56 ICT" name="testNegativeCases" description="Negative: đăng nhập thất bại từ dữ liệu Excel" data-provider="negativeData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:57 ICT" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Để trống cả hai trường]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCases -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:57 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:41:57 ICT" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Để trống cả hai trường status=SUCCESS method=LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:41:57 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:02 ICT" duration-ms="5727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:02 ICT" name="testNegativeCases" description="Negative: đăng nhập thất bại từ dữ liệu Excel" data-provider="negativeData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:03 ICT" duration-ms="495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Để trống password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:02 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:02 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@70ed902a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:03 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:03 ICT" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Để trống password status=SUCCESS method=LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:03 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:04 ICT" duration-ms="1363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:04 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:04 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@22f80e36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:04 ICT" name="testNegativeCases" description="Negative: đăng nhập thất bại từ dữ liệu Excel" data-provider="negativeData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:05 ICT" duration-ms="666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Để trống username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCases -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:05 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:05 ICT" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Để trống username status=SUCCESS method=LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:05 ICT" name="setUp" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:09 ICT" duration-ms="3942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:09 ICT" name="testNegativeCases" description="Negative: đăng nhập thất bại từ dữ liệu Excel" data-provider="negativeData" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:10 ICT" duration-ms="680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[notexist_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[notexist_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tài khoản không tồn tại]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCases -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:09 ICT" name="setTestName" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:09 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3c98981e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginExcelTest@2d3379b4]" started-at="2026-03-17T16:42:10 ICT" name="tearDown" test-instance-name="Tài khoản không tồn tại" finished-at="2026-03-17T16:42:10 ICT" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tài khoản không tồn tại status=SUCCESS method=LoginExcelTest.testNegativeCases(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginExcelTest -->
+    </test> <!-- Negative_Cases -->
+  </suite> <!-- BTTuan9_Bai3_Regression -->
+</testng-results>

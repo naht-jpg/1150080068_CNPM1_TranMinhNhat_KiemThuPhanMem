@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="17" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T16:00:32 ICT" name="BTTuan9_Bai1" finished-at="2026-03-17T16:02:29 ICT" duration-ms="116695">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_LoginTest.testLoginSuccess()[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" name="testLoginSuccess" class="dtm.tests.TC_LoginTest"/>
+        <method signature="TC_InventoryTest.testInventoryPageLoaded()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" name="testInventoryPageLoaded" class="dtm.tests.TC_InventoryTest"/>
+        <method signature="TC_CheckoutTest.testCartContainsAddedProduct()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" name="testCartContainsAddedProduct" class="dtm.tests.TC_CheckoutTest"/>
+        <method signature="TC_CheckoutTest.testFullCheckoutFlow()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" name="testFullCheckoutFlow" class="dtm.tests.TC_CheckoutTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-17T16:00:32 ICT" name="Login_Tests" finished-at="2026-03-17T16:01:15 ICT" duration-ms="42407">
+      <class name="dtm.tests.TC_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:33 ICT" name="setUp" finished-at="2026-03-17T16:00:43 ICT" duration-ms="10828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:33 ICT" name="setUp" finished-at="2026-03-17T16:00:43 ICT" duration-ms="10828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLoginEmptyFields()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:33 ICT" name="setUp" finished-at="2026-03-17T16:00:43 ICT" duration-ms="10874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLockedOutUser()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyFields()[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:43 ICT" name="testLoginEmptyFields" description="Đăng nhập thất bại khi để trống thông tin" finished-at="2026-03-17T16:00:47 ICT" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyFields -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:43 ICT" name="testLogin" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="loginData" finished-at="2026-03-17T16:00:46 ICT" duration-ms="2136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập thành công - standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLockedOutUser()[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:43 ICT" name="testLockedOutUser" description="Tài khoản bị khóa không thể đăng nhập" finished-at="2026-03-17T16:00:59 ICT" duration-ms="15413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:46 ICT" name="tearDown" finished-at="2026-03-17T16:00:46 ICT" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:46 ICT" name="setUp" finished-at="2026-03-17T16:00:47 ICT" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:47 ICT" name="tearDown" finished-at="2026-03-17T16:00:49 ICT" duration-ms="1652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyFields status=SUCCESS method=TC_LoginTest.testLoginEmptyFields()[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:47 ICT" name="testLogin" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="loginData" finished-at="2026-03-17T16:00:51 ICT" duration-ms="4053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập thành công - problem_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:49 ICT" name="setUp" finished-at="2026-03-17T16:00:50 ICT" duration-ms="1581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLoginSuccess()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:50 ICT" name="testLoginSuccess" description="Đăng nhập thành công với tài khoản hợp lệ" finished-at="2026-03-17T16:00:53 ICT" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:51 ICT" name="tearDown" finished-at="2026-03-17T16:00:51 ICT" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:51 ICT" name="setUp" finished-at="2026-03-17T16:00:53 ICT" duration-ms="1150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:53 ICT" name="testLogin" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="loginData" finished-at="2026-03-17T16:01:00 ICT" duration-ms="6999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập thành công - performance_glitch_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:53 ICT" name="tearDown" finished-at="2026-03-17T16:00:54 ICT" duration-ms="552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginSuccess status=SUCCESS method=TC_LoginTest.testLoginSuccess()[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:00:59 ICT" name="tearDown" finished-at="2026-03-17T16:00:59 ICT" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLockedOutUser status=SUCCESS method=TC_LoginTest.testLockedOutUser()[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:00 ICT" name="tearDown" finished-at="2026-03-17T16:01:00 ICT" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:00 ICT" name="setUp" finished-at="2026-03-17T16:01:01 ICT" duration-ms="836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:01 ICT" name="testLogin" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="loginData" finished-at="2026-03-17T16:01:04 ICT" duration-ms="3542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tài khoản bị khóa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:04 ICT" name="tearDown" finished-at="2026-03-17T16:01:04 ICT" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:04 ICT" name="setUp" finished-at="2026-03-17T16:01:05 ICT" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:05 ICT" name="testLogin" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="loginData" finished-at="2026-03-17T16:01:07 ICT" duration-ms="2050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sai mật khẩu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:07 ICT" name="tearDown" finished-at="2026-03-17T16:01:07 ICT" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:07 ICT" name="setUp" finished-at="2026-03-17T16:01:08 ICT" duration-ms="651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:08 ICT" name="testLogin" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="loginData" finished-at="2026-03-17T16:01:13 ICT" duration-ms="4807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Để trống username và password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:13 ICT" name="tearDown" finished-at="2026-03-17T16:01:13 ICT" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:13 ICT" name="setUp" finished-at="2026-03-17T16:01:14 ICT" duration-ms="659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:14 ICT" name="testLogin" description="Kiểm thử đăng nhập với nhiều bộ dữ liệu" data-provider="loginData" finished-at="2026-03-17T16:01:15 ICT" duration-ms="1124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Để trống password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963]" started-at="2026-03-17T16:01:15 ICT" name="tearDown" finished-at="2026-03-17T16:01:15 ICT" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC_LoginTest.testLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_LoginTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.tests.TC_LoginTest -->
+    </test> <!-- Login_Tests -->
+    <test started-at="2026-03-17T16:01:15 ICT" name="Inventory_Tests" finished-at="2026-03-17T16:01:37 ICT" duration-ms="22245">
+      <class name="dtm.tests.TC_InventoryTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:15 ICT" name="setUp" finished-at="2026-03-17T16:01:16 ICT" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testAddMultipleProducts()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:15 ICT" name="setUp" finished-at="2026-03-17T16:01:16 ICT" duration-ms="1112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testInventoryPageLoaded()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:15 ICT" name="setUp" finished-at="2026-03-17T16:01:16 ICT" duration-ms="1051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testAddProductToCart(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddProductToCart(java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:16 ICT" name="testAddProductToCart" description="Thêm từng sản phẩm vào giỏ hàng" data-provider="productData" finished-at="2026-03-17T16:01:18 ICT" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method signature="testAddMultipleProducts()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:16 ICT" name="testAddMultipleProducts" description="Thêm nhiều sản phẩm vào giỏ hàng" finished-at="2026-03-17T16:01:31 ICT" duration-ms="15005" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Giỏ hàng phải có 2 sản phẩm expected [2] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Giỏ hàng phải có 2 sản phẩm expected [2] but found [0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at dtm.tests.TC_InventoryTest.testAddMultipleProducts(TC_InventoryTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleProducts -->
+        <test-method signature="testInventoryPageLoaded()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:16 ICT" name="testInventoryPageLoaded" description="Trang sản phẩm hiển thị đúng sau khi đăng nhập" finished-at="2026-03-17T16:01:19 ICT" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInventoryPageLoaded -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:18 ICT" name="tearDown" finished-at="2026-03-17T16:01:18 ICT" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=TC_InventoryTest.testAddProductToCart(java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:18 ICT" name="setUp" finished-at="2026-03-17T16:01:19 ICT" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testAddProductToCart(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:19 ICT" name="tearDown" finished-at="2026-03-17T16:01:19 ICT" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInventoryPageLoaded status=SUCCESS method=TC_InventoryTest.testInventoryPageLoaded()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testAddProductToCart(java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:19 ICT" name="testAddProductToCart" description="Thêm từng sản phẩm vào giỏ hàng" data-provider="productData" finished-at="2026-03-17T16:01:22 ICT" duration-ms="2493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Bike Light]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:19 ICT" name="setUp" finished-at="2026-03-17T16:01:21 ICT" duration-ms="1567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testRemoveProductFromCart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveProductFromCart()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:21 ICT" name="testRemoveProductFromCart" description="Xóa sản phẩm đã thêm vào giỏ" finished-at="2026-03-17T16:01:36 ICT" duration-ms="14641" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at dtm.tests.TC_InventoryTest.testRemoveProductFromCart(TC_InventoryTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:22 ICT" name="tearDown" finished-at="2026-03-17T16:01:23 ICT" duration-ms="997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=TC_InventoryTest.testAddProductToCart(java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:23 ICT" name="setUp" finished-at="2026-03-17T16:01:24 ICT" duration-ms="988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testAddProductToCart(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddProductToCart(java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:24 ICT" name="testAddProductToCart" description="Thêm từng sản phẩm vào giỏ hàng" data-provider="productData" finished-at="2026-03-17T16:01:27 ICT" duration-ms="3116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Bolt T-Shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:27 ICT" name="tearDown" finished-at="2026-03-17T16:01:27 ICT" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=TC_InventoryTest.testAddProductToCart(java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:27 ICT" name="setUp" finished-at="2026-03-17T16:01:29 ICT" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testSortByNameAZ()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByNameAZ()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:29 ICT" name="testSortByNameAZ" description="Sắp xếp sản phẩm theo tên A-Z" finished-at="2026-03-17T16:01:33 ICT" duration-ms="4399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByNameAZ -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:31 ICT" name="tearDown" finished-at="2026-03-17T16:01:32 ICT" duration-ms="816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddMultipleProducts status=FAILURE method=TC_InventoryTest.testAddMultipleProducts()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:32 ICT" name="setUp" finished-at="2026-03-17T16:01:33 ICT" duration-ms="1411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_InventoryTest.testSortByPriceLowToHigh()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByPriceLowToHigh()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:33 ICT" name="testSortByPriceLowToHigh" description="Sắp xếp sản phẩm theo giá tăng dần" finished-at="2026-03-17T16:01:37 ICT" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:33 ICT" name="tearDown" finished-at="2026-03-17T16:01:36 ICT" duration-ms="2926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByNameAZ status=SUCCESS method=TC_InventoryTest.testSortByNameAZ()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:36 ICT" name="tearDown" finished-at="2026-03-17T16:01:37 ICT" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRemoveProductFromCart status=FAILURE method=TC_InventoryTest.testRemoveProductFromCart()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6]" started-at="2026-03-17T16:01:37 ICT" name="tearDown" finished-at="2026-03-17T16:01:37 ICT" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPriceLowToHigh status=SUCCESS method=TC_InventoryTest.testSortByPriceLowToHigh()[pri:0, instance:dtm.tests.TC_InventoryTest@223191a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.tests.TC_InventoryTest -->
+    </test> <!-- Inventory_Tests -->
+    <test started-at="2026-03-17T16:01:37 ICT" name="Checkout_Tests" finished-at="2026-03-17T16:02:29 ICT" duration-ms="51986">
+      <class name="dtm.tests.TC_CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:37 ICT" name="setUp" finished-at="2026-03-17T16:01:40 ICT" duration-ms="2415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:37 ICT" name="setUp" finished-at="2026-03-17T16:01:40 ICT" duration-ms="2379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_CheckoutTest.testCartContainsAddedProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:37 ICT" name="setUp" finished-at="2026-03-17T16:01:39 ICT" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_CheckoutTest.testFullCheckoutFlow()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFullCheckoutFlow()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:39 ICT" name="testFullCheckoutFlow" description="Hoàn tất quy trình thanh toán đầy đủ" finished-at="2026-03-17T16:01:53 ICT" duration-ms="14423" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: checkout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\vvkgh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58399}, goog:processID: 26164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58399/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1193753c0b1167f0b352d274b4e6f596]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: checkout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\vvkgh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58399}, goog:processID: 26164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58399/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1193753c0b1167f0b352d274b4e6f596
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+at dtm.base.BasePage.waitAndClick(BasePage.java:30)
+at dtm.pages.CartPage.clickCheckout(CartPage.java:67)
+at dtm.tests.TC_CheckoutTest.testFullCheckoutFlow(TC_CheckoutTest.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullCheckoutFlow -->
+        <test-method signature="testCartContainsAddedProduct()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:40 ICT" name="testCartContainsAddedProduct" description="Kiểm tra giỏ hàng có sản phẩm đã thêm" finished-at="2026-03-17T16:01:43 ICT" duration-ms="3690" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Trang giỏ hàng phải hiển thị expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Trang giỏ hàng phải hiển thị expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dtm.tests.TC_CheckoutTest.testCartContainsAddedProduct(TC_CheckoutTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartContainsAddedProduct -->
+        <test-method signature="testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:40 ICT" name="testCheckoutStepOne" description="Kiểm tra quy trình thanh toán với nhiều dữ liệu" data-provider="checkoutData" finished-at="2026-03-17T16:01:55 ICT" duration-ms="15354" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Van A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thông tin hợp lệ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: checkout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\vvkgh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58400}, goog:processID: 32448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58400/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7040d0bb7f0e197ee1243ea5b2c64]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: checkout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\vvkgh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58400}, goog:processID: 32448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58400/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7040d0bb7f0e197ee1243ea5b2c64
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+at dtm.base.BasePage.waitAndClick(BasePage.java:30)
+at dtm.pages.CartPage.clickCheckout(CartPage.java:67)
+at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutStepOne -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:43 ICT" name="tearDown" finished-at="2026-03-17T16:01:44 ICT" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCartContainsAddedProduct status=FAILURE method=TC_CheckoutTest.testCartContainsAddedProduct()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:44 ICT" name="setUp" finished-at="2026-03-17T16:01:45 ICT" duration-ms="1172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_CheckoutTest.testRemoveProductFromCart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveProductFromCart()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:45 ICT" name="testRemoveProductFromCart" description="Xóa sản phẩm khỏi giỏ hàng" finished-at="2026-03-17T16:02:09 ICT" duration-ms="23870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:53 ICT" name="tearDown" finished-at="2026-03-17T16:01:55 ICT" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFullCheckoutFlow status=FAILURE method=TC_CheckoutTest.testFullCheckoutFlow()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:55 ICT" name="tearDown" finished-at="2026-03-17T16:01:55 ICT" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutStepOne status=FAILURE method=TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:55 ICT" name="setUp" finished-at="2026-03-17T16:01:56 ICT" duration-ms="832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:01:56 ICT" name="testCheckoutStepOne" description="Kiểm tra quy trình thanh toán với nhiều dữ liệu" data-provider="checkoutData" finished-at="2026-03-17T16:02:01 ICT" duration-ms="4626" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Van B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thiếu First Name]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Phải ở bước 1 thanh toán expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Phải ở bước 1 thanh toán expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutStepOne -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:01 ICT" name="tearDown" finished-at="2026-03-17T16:02:01 ICT" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutStepOne status=FAILURE method=TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:01 ICT" name="setUp" finished-at="2026-03-17T16:02:02 ICT" duration-ms="969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:02 ICT" name="testCheckoutStepOne" description="Kiểm tra quy trình thanh toán với nhiều dữ liệu" data-provider="checkoutData" finished-at="2026-03-17T16:02:15 ICT" duration-ms="12709" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thiếu Last Name]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[Thiếu Last Name] Phải hiển thị lỗi khi thiếu thông tin expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [Thiếu Last Name] Phải hiển thị lỗi khi thiếu thông tin expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutStepOne -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:09 ICT" name="tearDown" finished-at="2026-03-17T16:02:09 ICT" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRemoveProductFromCart status=SUCCESS method=TC_CheckoutTest.testRemoveProductFromCart()[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:15 ICT" name="tearDown" finished-at="2026-03-17T16:02:15 ICT" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutStepOne status=FAILURE method=TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:15 ICT" name="setUp" finished-at="2026-03-17T16:02:16 ICT" duration-ms="1090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dtm.tests.TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:16 ICT" name="testCheckoutStepOne" description="Kiểm tra quy trình thanh toán với nhiều dữ liệu" data-provider="checkoutData" finished-at="2026-03-17T16:02:29 ICT" duration-ms="12446" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Le]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thi C]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thiếu Postal Code]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[Thiếu Postal Code] Phải hiển thị lỗi khi thiếu thông tin expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [Thiếu Postal Code] Phải hiển thị lỗi khi thiếu thông tin expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dtm.tests.TC_CheckoutTest.testCheckoutStepOne(TC_CheckoutTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutStepOne -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b]" started-at="2026-03-17T16:02:29 ICT" name="tearDown" finished-at="2026-03-17T16:02:29 ICT" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutStepOne status=FAILURE method=TC_CheckoutTest.testCheckoutStepOne(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:dtm.tests.TC_CheckoutTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.tests.TC_CheckoutTest -->
+    </test> <!-- Checkout_Tests -->
+  </suite> <!-- BTTuan9_Bai1 -->
+</testng-results>

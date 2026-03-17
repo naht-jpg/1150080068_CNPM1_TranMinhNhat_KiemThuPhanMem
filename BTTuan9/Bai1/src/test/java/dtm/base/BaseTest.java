@@ -97,7 +97,11 @@ public abstract class BaseTest {
                 + " | Status: " + (result.isSuccess() ? "PASS" : "FAIL"));
     }
 
-    // Trả về driver của thread hiện tại
+    /**
+     * Trả về WebDriver của thread hiện tại.
+     * Dùng ThreadLocal đảm bảo mỗi thread song song có driver độc lập.
+     * @return WebDriver instance đang được dùng bởi thread hiện tại
+     */
     public WebDriver getDriver() {
         return driverThreadLocal.get();
     }

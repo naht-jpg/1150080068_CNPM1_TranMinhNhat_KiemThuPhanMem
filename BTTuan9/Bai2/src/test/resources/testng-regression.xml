@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  Regression suite: Chạy toàn bộ test (smoke + regression)
+  Chạy: mvn test  (mặc định dùng file này theo pom.xml)
+-->
+<suite name="BTTuan9_Bai2_Regression" verbose="1" parallel="classes" thread-count="2">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env"     value="dev"/>
+
+    <test name="Login_Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart_Tests">
+        <classes>
+            <class name="tests.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Login_DDT_Tests">
+        <classes>
+            <class name="tests.LoginDDTTest"/>
+        </classes>
+    </test>
+
+</suite>

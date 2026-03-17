@@ -52,13 +52,17 @@ public abstract class BasePage {
 
     /**
      * Kiểm tra phần tử có đang hiển thị hay không.
+     * Xử lý các ngoại lệ thường gặp:
+     *   - TimeoutException: phần tử không xuất hiện trong thời gian chờ
+     *   - NoSuchElementException: phần tử không tồn tại trong DOM
+     *   - StaleElementReferenceException: phần tử đã bị DOM thay thế giữa chừng
      * @param locator - Bộ định vị phần tử
      * @return true nếu phần tử đang hiển thị, false nếu không
      */
     protected boolean isElementVisible(By locator) {
         try {
             return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).isDisplayed();
-        } catch (TimeoutException | NoSuchElementException e) {
+        } catch (TimeoutException | NoSuchElementException | StaleElementReferenceException e) {
             return false;
         }
     }

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 24 13:57:48 ICT 2026</td>
+<td>Started on:</td><td>Tue Mar 24 16:35:20 ICT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7473 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5502 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,24 +67,14 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='com.testing.JsonSchemaValidationTest.testCreateUserSchemaValidation()'><b>testCreateUserSchemaValidation</b><br>Test class: com.testing.JsonSchemaValidationTest</td>
-<td></td>
-<td>3</td>
-<td>com.testing.JsonSchemaValidationTest@6193932a</td></tr>
-<tr>
-<td title='com.testing.JsonSchemaValidationTest.testSingleUserSchemaValidation()'><b>testSingleUserSchemaValidation</b><br>Test class: com.testing.JsonSchemaValidationTest</td>
-<td></td>
-<td>0</td>
-<td>com.testing.JsonSchemaValidationTest@6193932a</td></tr>
 <tr>
 <td title='com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent()'><b>testSchemaFailsWhenExtraFieldPresent</b><br>Test class: com.testing.JsonSchemaValidationTest<br>Test method: Demo: Schema FAIL khi response có field thừa/thiếu</td>
 <td><div><pre>java.lang.AssertionError: 1 expectation failed.
@@ -98,7 +88,7 @@ error: object instance has properties which are not allowed by the schema: [&quo
     keyword: &quot;additionalProperties&quot;
     unwanted: [&quot;_meta&quot;]
 
-  Actual: {&quot;name&quot;:&quot;Test Fail&quot;,&quot;job&quot;:&quot;Demo&quot;,&quot;id&quot;:&quot;480&quot;,&quot;createdAt&quot;:&quot;2026-03-24T06:57:55.048Z&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;Classic ReqRes still works. Projects add persistence, auth, and logs.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;See example app&quot;,&quot;url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;},&quot;context&quot;:&quot;legacy_success&quot;}}
+  Actual: {&quot;name&quot;:&quot;Test Fail&quot;,&quot;job&quot;:&quot;Demo&quot;,&quot;id&quot;:&quot;669&quot;,&quot;createdAt&quot;:&quot;2026-03-24T09:35:26.001Z&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;Classic ReqRes still works. Projects add persistence, auth, and logs.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;See example app&quot;,&quot;url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;},&quot;context&quot;:&quot;legacy_success&quot;}}
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
@@ -114,10 +104,10 @@ error: object instance has properties which are not allowed by the schema: [&quo
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:84)
+	at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:85)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1514687713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1514687713'><pre>java.lang.AssertionError: 1 expectation failed.
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1430358188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1430358188'><pre>java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
 error: object instance has properties which are not allowed by the schema: [&quot;_meta&quot;]
@@ -128,7 +118,7 @@ error: object instance has properties which are not allowed by the schema: [&quo
     keyword: &quot;additionalProperties&quot;
     unwanted: [&quot;_meta&quot;]
 
-  Actual: {&quot;name&quot;:&quot;Test Fail&quot;,&quot;job&quot;:&quot;Demo&quot;,&quot;id&quot;:&quot;480&quot;,&quot;createdAt&quot;:&quot;2026-03-24T06:57:55.048Z&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;Classic ReqRes still works. Projects add persistence, auth, and logs.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;See example app&quot;,&quot;url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;},&quot;context&quot;:&quot;legacy_success&quot;}}
+  Actual: {&quot;name&quot;:&quot;Test Fail&quot;,&quot;job&quot;:&quot;Demo&quot;,&quot;id&quot;:&quot;669&quot;,&quot;createdAt&quot;:&quot;2026-03-24T09:35:26.001Z&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;Classic ReqRes still works. Projects add persistence, auth, and logs.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;See example app&quot;,&quot;url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;},&quot;context&quot;:&quot;legacy_success&quot;}}
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -150,7 +140,7 @@ error: object instance has properties which are not allowed by the schema: [&quo
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:84)
+	at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:85)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -184,6 +174,25 @@ error: object instance has properties which are not allowed by the schema: [&quo
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
+<td>com.testing.JsonSchemaValidationTest@6193932a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testing.JsonSchemaValidationTest.testSingleUserSchemaValidation()'><b>testSingleUserSchemaValidation</b><br>Test class: com.testing.JsonSchemaValidationTest</td>
+<td></td>
+<td>0</td>
+<td>com.testing.JsonSchemaValidationTest@6193932a</td></tr>
+<tr>
+<td title='com.testing.JsonSchemaValidationTest.testCreateUserSchemaValidation()'><b>testCreateUserSchemaValidation</b><br>Test class: com.testing.JsonSchemaValidationTest</td>
+<td></td>
+<td>3</td>
 <td>com.testing.JsonSchemaValidationTest@6193932a</td></tr>
 <tr>
 <td title='com.testing.JsonSchemaValidationTest.testUserListSchemaValidation()'><b>testUserListSchemaValidation</b><br>Test class: com.testing.JsonSchemaValidationTest</td>

@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T13:42:17 ICT" name="Surefire suite" finished-at="2026-03-24T13:42:23 ICT" duration-ms="6523">
+  <suite started-at="2026-03-24T16:20:54 ICT" name="Surefire suite" finished-at="2026-03-24T16:21:01 ICT" duration-ms="6690">
     <groups>
     </groups>
-    <test started-at="2026-03-24T13:42:17 ICT" name="Surefire test" finished-at="2026-03-24T13:42:23 ICT" duration-ms="6523">
+    <test started-at="2026-03-24T16:20:54 ICT" name="Surefire test" finished-at="2026-03-24T16:21:01 ICT" duration-ms="6690">
       <class name="com.testing.CrudUserApiTest">
-        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T13:42:17 ICT" name="setupApiSpec" finished-at="2026-03-24T13:42:18 ICT" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T16:20:54 ICT" name="setupApiSpec" finished-at="2026-03-24T16:20:55 ICT" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupApiSpec -->
-        <test-method signature="testDeleteUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T13:42:18 ICT" name="testDeleteUser" finished-at="2026-03-24T13:42:20 ICT" duration-ms="2710" status="PASS">
+        <test-method signature="testDeleteUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T16:20:55 ICT" name="testDeleteUser" finished-at="2026-03-24T16:20:57 ICT" duration-ms="2157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->
-        <test-method signature="testPatchPartialUpdateUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T13:42:20 ICT" name="testPatchPartialUpdateUser" finished-at="2026-03-24T13:42:21 ICT" duration-ms="1002" status="PASS">
+        <test-method signature="testPatchPartialUpdateUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T16:20:57 ICT" name="testPatchPartialUpdateUser" finished-at="2026-03-24T16:20:58 ICT" duration-ms="938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatchPartialUpdateUser -->
-        <test-method signature="testPostCreateUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T13:42:21 ICT" name="testPostCreateUser" finished-at="2026-03-24T13:42:22 ICT" duration-ms="688" status="PASS">
+        <test-method signature="testPostCreateUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T16:20:58 ICT" name="testPostCreateUser" finished-at="2026-03-24T16:20:59 ICT" duration-ms="1093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostCreateUser -->
-        <test-method signature="testPostThenGetToVerify()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T13:42:22 ICT" name="testPostThenGetToVerify" finished-at="2026-03-24T13:42:23 ICT" duration-ms="1112" status="PASS">
+        <test-method signature="testPostThenGetToVerify()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T16:20:59 ICT" name="testPostThenGetToVerify" finished-at="2026-03-24T16:21:00 ICT" duration-ms="1132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostThenGetToVerify -->
-        <test-method signature="testPutUpdateUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T13:42:23 ICT" name="testPutUpdateUser" finished-at="2026-03-24T13:42:23 ICT" duration-ms="357" status="PASS">
+        <test-method signature="testPutUpdateUser()[pri:0, instance:com.testing.CrudUserApiTest@419c5f1a]" started-at="2026-03-24T16:21:00 ICT" name="testPutUpdateUser" finished-at="2026-03-24T16:21:01 ICT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPutUpdateUser -->

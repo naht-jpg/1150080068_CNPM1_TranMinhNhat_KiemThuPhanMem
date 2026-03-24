@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.643" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.953" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\vvkgh\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\vvkgh\AppData\Local\Temp\surefire6402130917063467617\surefirebooter-20260324143334573_3.jar C:\Users\vvkgh\AppData\Local\Temp\surefire6402130917063467617 2026-03-24T14-33-34_405-jvmRun1 surefire-20260324143334573_1tmp surefire_0-20260324143334573_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\vvkgh\AppData\Local\Temp\surefire12146938042736793810\surefirebooter-20260324171956196_3.jar C:\Users\vvkgh\AppData\Local\Temp\surefire12146938042736793810 2026-03-24T17-19-56_041-jvmRun1 surefire-20260324171956196_1tmp surefire_0-20260324171956196_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\KiemThuPhanMem\BTTuan10\Bai6\target\test-classes;D:\KiemThuPhanMem\BTTuan10\Bai6\target\classes;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vvkgh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vvkgh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vvkgh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\vvkgh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vvkgh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vvkgh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\vvkgh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\vvkgh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vvkgh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vvkgh\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\vvkgh\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\vvkgh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\vvkgh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\vvkgh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\vvkgh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\vvkgh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vvkgh\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\vvkgh\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\vvkgh\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\vvkgh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\vvkgh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\vvkgh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\vvkgh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vvkgh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\vvkgh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\vvkgh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\vvkgh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vvkgh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\vvkgh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\vvkgh\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\vvkgh\AppData\Local\Temp\surefire6402130917063467617\surefirebooter-20260324143334573_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vvkgh\AppData\Local\Temp\surefire12146938042736793810\surefirebooter-20260324171956196_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-2513"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApiLoginSuccess" classname="com.testing.ApiPreconditionUiTest" time="0.005">
+  <testcase name="testApiLoginSuccess" classname="com.testing.ApiPreconditionUiTest" time="0.004">
     <system-out><![CDATA[
 ========== API PRECONDITION ==========
 [API] Gọi POST /api/login trên reqres.in để lấy token...
@@ -82,7 +82,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 200 OK
-Date: Tue, 24 Mar 2026 07:33:38 GMT
+Date: Tue, 24 Mar 2026 10:20:00 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -94,8 +94,8 @@ Etag: W/"1a6-OPYOvhNlJBNDjBInPmPS5KSNydc"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=8r4O66AlyydqCQGDLQCDHH%2Fdfjvwl4bomdVWxRQOyf8%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774337618"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=8r4O66AlyydqCQGDLQCDHH%2Fdfjvwl4bomdVWxRQOyf8%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774337618"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Qoz2SDxKH6AwVPZEB1nuV%2F47D%2BgSanumdOEI0j%2Fz%2BDw%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774347600"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Qoz2SDxKH6AwVPZEB1nuV%2F47D%2BgSanumdOEI0j%2Fz%2BDw%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774347600"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -106,22 +106,22 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 199
+X-Ratelimit-Remaining: 134
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: f3f70475-e15c-2f33-cead-3955cc1af8fe
+X-Request-Id: b79cf619-e6b6-664e-457c-d1b06194ce6b
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9e13fd226c5a5ce3-SIN
+CF-RAY: 9e14f0d39b76fdaa-SIN
 
 {
     "token": "QpwL5tke4Pnpja7X4",
@@ -150,7 +150,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testUiLoginSaucedemo" classname="com.testing.ApiPreconditionUiTest" time="4.117">
+  <testcase name="testUiLoginSaucedemo" classname="com.testing.ApiPreconditionUiTest" time="4.624">
     <system-out><![CDATA[
 ========== API PRECONDITION ==========
 [API] Gọi POST /api/login trên reqres.in để lấy token...
@@ -172,7 +172,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 200 OK
-Date: Tue, 24 Mar 2026 07:33:39 GMT
+Date: Tue, 24 Mar 2026 10:20:01 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -184,8 +184,8 @@ Etag: W/"1a6-OPYOvhNlJBNDjBInPmPS5KSNydc"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=B1f2pswhRC5wMIUXvtINDTELxP2QrVQpG5MDxAV36uw%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774337619"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=B1f2pswhRC5wMIUXvtINDTELxP2QrVQpG5MDxAV36uw%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774337619"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=IolgTbVcc1aojph2%2BQ7aiG6sAsnMnTcLxB1Gs7TXqGo%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774347601"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=IolgTbVcc1aojph2%2BQ7aiG6sAsnMnTcLxB1Gs7TXqGo%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774347601"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -196,22 +196,22 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 198
+X-Ratelimit-Remaining: 133
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Tip: Create your own API with custom data - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: 10ab8a6e-4014-8cdc-a602-55fd33da91ea
+X-Request-Id: 592655cb-9cde-b990-6918-684dc2eb365c
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9e13fd2969e840af-SIN
+CF-RAY: 9e14f0da5e17ff95-SIN
 
 {
     "token": "QpwL5tke4Pnpja7X4",
@@ -246,13 +246,13 @@ CF-RAY: 9e13fd2969e840af-SIN
 ======================================
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2026 2:33:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 24, 2026 5:20:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Mar 24, 2026 2:33:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Mar 24, 2026 5:20:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testFullIntegrationFlow" classname="com.testing.FullIntegrationFlowTest" time="3.046">
+  <testcase name="testFullIntegrationFlow" classname="com.testing.FullIntegrationFlowTest" time="5.653">
     <system-out><![CDATA[
 ========== API HEALTH CHECK ==========
 [API] Gọi GET /api/users để kiểm tra reqres.in đang hoạt động...
@@ -270,7 +270,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Tue, 24 Mar 2026 07:33:44 GMT
+Date: Tue, 24 Mar 2026 10:20:06 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -286,8 +286,8 @@ Ratelimit-Policy: 20;w=60
 Ratelimit-Remaining: 19
 Ratelimit-Reset: 60
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=3Q6dumDEfWtPNkr6Q2LV%2FbNbabAmsKqpBTGffxx%2FpSQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774337624"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=3Q6dumDEfWtPNkr6Q2LV%2FbNbabAmsKqpBTGffxx%2FpSQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774337624"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=jxguLE2OxCWUqpIc%2FjiWhhP9LGEtTvY4H2BCMKLCuYo%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774347606"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=jxguLE2OxCWUqpIc%2FjiWhhP9LGEtTvY4H2BCMKLCuYo%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774347606"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -298,22 +298,22 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 197
+X-Ratelimit-Remaining: 132
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Create your own API with custom data - app.reqres.in/dashboard
+X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: 3f95a5d3-4319-9bc1-9163-a163611588f3
+X-Request-Id: 732c15a7-1c66-fadc-199b-e634003715cd
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: BYPASS
 Content-Encoding: gzip
-CF-RAY: 9e13fd46bd3ef8fa-SIN
+CF-RAY: 9e14f0fb4f9e8b8a-SIN
 
 {
     "page": 1,
@@ -405,10 +405,10 @@ CF-RAY: 9e13fd46bd3ef8fa-SIN
 ===========================================
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2026 2:33:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 24, 2026 5:20:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Mar 24, 2026 2:33:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Mar 24, 2026 5:20:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>

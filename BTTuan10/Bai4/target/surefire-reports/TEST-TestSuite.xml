@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.687" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.856" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\vvkgh\AppData\Local\Temp\surefire13850120969999632349\surefirebooter-20260324140137022_3.jar C:\Users\vvkgh\AppData\Local\Temp\surefire13850120969999632349 2026-03-24T14-01-36_889-jvmRun1 surefire-20260324140137022_1tmp surefire_0-20260324140137022_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\vvkgh\AppData\Local\Temp\surefire7492502916942499987\surefirebooter-20260324164341099_3.jar C:\Users\vvkgh\AppData\Local\Temp\surefire7492502916942499987 2026-03-24T16-43-40_903-jvmRun1 surefire-20260324164341099_1tmp surefire_0-20260324164341099_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\KiemThuPhanMem\BTTuan10\Bai4\target\test-classes;D:\KiemThuPhanMem\BTTuan10\Bai4\target\classes;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vvkgh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vvkgh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vvkgh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\vvkgh\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\vvkgh\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\vvkgh\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\vvkgh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\vvkgh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vvkgh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vvkgh\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\vvkgh\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\vvkgh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\vvkgh\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\vvkgh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vvkgh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vvkgh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\vvkgh\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\vvkgh\AppData\Local\Temp\surefire13850120969999632349\surefirebooter-20260324140137022_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vvkgh\AppData\Local\Temp\surefire7492502916942499987\surefirebooter-20260324164341099_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-2513"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testLoginMissingEmail" classname="com.testing.AuthorizationTest" time="2.003">
+  <testcase name="testLoginMissingEmail" classname="com.testing.AuthorizationTest" time="3.313">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -77,7 +77,7 @@ Body:
     "password": "cityslicka"
 }
 HTTP/1.1 400 Bad Request
-Date: Tue, 24 Mar 2026 07:01:40 GMT
+Date: Tue, 24 Mar 2026 09:43:46 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 37
 Connection: keep-alive
@@ -89,8 +89,8 @@ Etag: W/"25-Ik70kof1lbc973ShN5FoVPxYn7A"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=l6Cr5k3gaVMYyTqIjalN2Kf1Bm4V%2BbJ8L%2FvohMb3tiQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335700"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=l6Cr5k3gaVMYyTqIjalN2Kf1Bm4V%2BbJ8L%2FvohMb3tiQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335700"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=edy3sFlp0UmcA47tnOmm%2BPikGWk4U%2FUj47ImLAitogQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345426"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=edy3sFlp0UmcA47tnOmm%2BPikGWk4U%2FUj47ImLAitogQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345426"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -101,21 +101,21 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 230
+X-Ratelimit-Remaining: 174
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: d7a85291-386b-065d-9f97-c1b280b119e1
+X-Request-Id: 4cc1eb1f-5aaf-d5f7-19fa-8c1f33933b17
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
-CF-RAY: 9e13ce4e9817f8e6-SIN
+CF-RAY: 9e14bbc218d9445e-SIN
 
 {
     "error": "Missing email or username"
@@ -126,7 +126,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginMissingPassword" classname="com.testing.AuthorizationTest" time="0.534">
+  <testcase name="testLoginMissingPassword" classname="com.testing.AuthorizationTest" time="0.525">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -144,7 +144,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 400 Bad Request
-Date: Tue, 24 Mar 2026 07:01:41 GMT
+Date: Tue, 24 Mar 2026 09:43:47 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 28
 Connection: keep-alive
@@ -156,8 +156,8 @@ Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=8DxojcYKnPaxYwyMtHfv3S3GyWbWL1r8UYhuX3vihTQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335701"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=8DxojcYKnPaxYwyMtHfv3S3GyWbWL1r8UYhuX3vihTQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335701"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=3IttTYPdOX5zndiVAK4ZW4OxhiDH69u0smENqUIcQKA%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345427"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=3IttTYPdOX5zndiVAK4ZW4OxhiDH69u0smENqUIcQKA%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345427"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -168,7 +168,7 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 229
+X-Ratelimit-Remaining: 173
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
@@ -178,18 +178,18 @@ X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: bb0c6474-22b9-7cae-6159-27b19f1fb707
+X-Request-Id: 26b5d526-e385-89d0-8d55-0a2746758994
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
-CF-RAY: 9e13ce541b71c887-SIN
+CF-RAY: 9e14bbc9bda9a110-SIN
 
 {
     "error": "Missing password"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginSuccess" classname="com.testing.AuthorizationTest" time="0.341">
+  <testcase name="testLoginSuccess" classname="com.testing.AuthorizationTest" time="0.621">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -208,7 +208,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 200 OK
-Date: Tue, 24 Mar 2026 07:01:41 GMT
+Date: Tue, 24 Mar 2026 09:43:48 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -220,8 +220,8 @@ Etag: W/"1a6-OPYOvhNlJBNDjBInPmPS5KSNydc"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=8DxojcYKnPaxYwyMtHfv3S3GyWbWL1r8UYhuX3vihTQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335701"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=8DxojcYKnPaxYwyMtHfv3S3GyWbWL1r8UYhuX3vihTQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335701"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=CV7iTMkGR%2B00NWE99j3t7GWO%2FLzFw3o9n9MF3RdPZFQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345428"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=CV7iTMkGR%2B00NWE99j3t7GWO%2FLzFw3o9n9MF3RdPZFQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345428"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -232,7 +232,7 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 228
+X-Ratelimit-Remaining: 172
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
@@ -242,12 +242,12 @@ X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: afc4916c-3462-fcc4-7eca-623c5c060057
+X-Request-Id: 025760fa-a2d6-2047-644e-d56a4a3d9089
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9e13ce575c7ffe13-SIN
+CF-RAY: 9e14bbcd0dcf3dee-SIN
 
 {
     "token": "QpwL5tke4Pnpja7X4",
@@ -267,7 +267,7 @@ CF-RAY: 9e13ce575c7ffe13-SIN
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testRegisterMissingPassword" classname="com.testing.AuthorizationTest" time="0.348">
+  <testcase name="testRegisterMissingPassword" classname="com.testing.AuthorizationTest" time="0.289">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/register
 Proxy:			<none>
@@ -285,7 +285,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 400 Bad Request
-Date: Tue, 24 Mar 2026 07:01:42 GMT
+Date: Tue, 24 Mar 2026 09:43:48 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 28
 Connection: keep-alive
@@ -297,8 +297,8 @@ Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=wF4wCgf%2Bad2jBIBu9zluYzGEWElPYdO8W9zuzTnaW0I%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335702"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=wF4wCgf%2Bad2jBIBu9zluYzGEWElPYdO8W9zuzTnaW0I%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335702"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=CV7iTMkGR%2B00NWE99j3t7GWO%2FLzFw3o9n9MF3RdPZFQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345428"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=CV7iTMkGR%2B00NWE99j3t7GWO%2FLzFw3o9n9MF3RdPZFQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345428"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -309,7 +309,7 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 227
+X-Ratelimit-Remaining: 171
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
@@ -319,18 +319,18 @@ X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: d59446ba-3c0b-47e4-99f4-87cbc69ae605
+X-Request-Id: 57746b5f-73e5-b225-2b1f-98069fc3c7ea
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
-CF-RAY: 9e13ce598e8c8bd0-SIN
+CF-RAY: 9e14bbd0ae5dc6e5-SIN
 
 {
     "error": "Missing password"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testRegisterSuccess" classname="com.testing.AuthorizationTest" time="0.552">
+  <testcase name="testRegisterSuccess" classname="com.testing.AuthorizationTest" time="0.357">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/register
 Proxy:			<none>
@@ -349,7 +349,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 200 OK
-Date: Tue, 24 Mar 2026 07:01:42 GMT
+Date: Tue, 24 Mar 2026 09:43:49 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -361,8 +361,8 @@ Etag: W/"1ad-zW7iXzWtn1U/QvNc/ReZyXThMjM"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=wF4wCgf%2Bad2jBIBu9zluYzGEWElPYdO8W9zuzTnaW0I%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335702"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=wF4wCgf%2Bad2jBIBu9zluYzGEWElPYdO8W9zuzTnaW0I%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335702"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=zy4PF1%2Fpqo0ELzdXumttg5afv3X9tBV6u1E6QBbSncU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345429"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=zy4PF1%2Fpqo0ELzdXumttg5afv3X9tBV6u1E6QBbSncU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345429"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -373,22 +373,22 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 226
+X-Ratelimit-Remaining: 170
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: 1d4fe2e6-e301-8a0d-d603-6b8fa3520ebc
+X-Request-Id: 374c6880-8821-476b-bc83-cba1fe022f8c
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9e13ce5bc8989e41-SIN
+CF-RAY: 9e14bbd2b9101f6e-SIN
 
 {
     "id": 4,
@@ -409,7 +409,7 @@ CF-RAY: 9e13ce5bc8989e41-SIN
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginScenarios[eve.holt@reqres.in, cityslicka, 200, null](1)" classname="com.testing.LoginDataDrivenTest" time="0.519">
+  <testcase name="testLoginScenarios[eve.holt@reqres.in, cityslicka, 200, null](1)" classname="com.testing.LoginDataDrivenTest" time="0.493">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -428,7 +428,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 200 OK
-Date: Tue, 24 Mar 2026 07:01:43 GMT
+Date: Tue, 24 Mar 2026 09:43:49 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -440,8 +440,8 @@ Etag: W/"1a6-OPYOvhNlJBNDjBInPmPS5KSNydc"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Rtigd0g7oNp%2FzJ3WWNWfdf2wv%2Fe3hStfR%2Bif%2F4dV9f4%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335703"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Rtigd0g7oNp%2FzJ3WWNWfdf2wv%2Fe3hStfR%2Bif%2F4dV9f4%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335703"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=zy4PF1%2Fpqo0ELzdXumttg5afv3X9tBV6u1E6QBbSncU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345429"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=zy4PF1%2Fpqo0ELzdXumttg5afv3X9tBV6u1E6QBbSncU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345429"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -452,22 +452,22 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 225
+X-Ratelimit-Remaining: 169
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Tip: Create your own API with custom data - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: 4b563886-fd8b-c22a-24e4-a29ffbee1666
+X-Request-Id: 2b45d776-3443-348b-f027-9e74c45c2545
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9e13ce5f3fee122f-SIN
+CF-RAY: 9e14bbd50b6dc4d2-SIN
 
 {
     "token": "QpwL5tke4Pnpja7X4",
@@ -487,7 +487,7 @@ CF-RAY: 9e13ce5f3fee122f-SIN
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginScenarios[eve.holt@reqres.in, , 400, Missing password](2)" classname="com.testing.LoginDataDrivenTest" time="0.34">
+  <testcase name="testLoginScenarios[eve.holt@reqres.in, , 400, Missing password](2)" classname="com.testing.LoginDataDrivenTest" time="0.452">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -505,7 +505,7 @@ Body:
     "email": "eve.holt@reqres.in"
 }
 HTTP/1.1 400 Bad Request
-Date: Tue, 24 Mar 2026 07:01:43 GMT
+Date: Tue, 24 Mar 2026 09:43:50 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 28
 Connection: keep-alive
@@ -517,8 +517,8 @@ Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Rtigd0g7oNp%2FzJ3WWNWfdf2wv%2Fe3hStfR%2Bif%2F4dV9f4%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335703"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Rtigd0g7oNp%2FzJ3WWNWfdf2wv%2Fe3hStfR%2Bif%2F4dV9f4%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335703"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=PmzLoIfXgQKo3KOgLaNkdF2GkbGwHWgflNzijUX6cl0%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345430"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=PmzLoIfXgQKo3KOgLaNkdF2GkbGwHWgflNzijUX6cl0%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345430"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -529,28 +529,28 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 224
+X-Ratelimit-Remaining: 168
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: c3eb4da3-c142-a641-66a8-434385c7ebe7
+X-Request-Id: f7536471-a28e-14b5-828d-a964c684d23b
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
-CF-RAY: 9e13ce627a77f91a-SIN
+CF-RAY: 9e14bbd7ec0df8d4-SIN
 
 {
     "error": "Missing password"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginScenarios[, cityslicka, 400, Missing email or username](3)" classname="com.testing.LoginDataDrivenTest" time="0.353">
+  <testcase name="testLoginScenarios[, cityslicka, 400, Missing email or username](3)" classname="com.testing.LoginDataDrivenTest" time="0.326">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -569,7 +569,7 @@ Body:
     "email": ""
 }
 HTTP/1.1 400 Bad Request
-Date: Tue, 24 Mar 2026 07:01:43 GMT
+Date: Tue, 24 Mar 2026 09:43:50 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 37
 Connection: keep-alive
@@ -581,8 +581,8 @@ Etag: W/"25-Ik70kof1lbc973ShN5FoVPxYn7A"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Rtigd0g7oNp%2FzJ3WWNWfdf2wv%2Fe3hStfR%2Bif%2F4dV9f4%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335703"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Rtigd0g7oNp%2FzJ3WWNWfdf2wv%2Fe3hStfR%2Bif%2F4dV9f4%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335703"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=PmzLoIfXgQKo3KOgLaNkdF2GkbGwHWgflNzijUX6cl0%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345430"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=PmzLoIfXgQKo3KOgLaNkdF2GkbGwHWgflNzijUX6cl0%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345430"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -593,28 +593,28 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 223
+X-Ratelimit-Remaining: 167
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: e0155f45-44f0-9095-9959-294f2997184d
+X-Request-Id: 7af6ed8a-8a5c-967e-b01c-8b47c2c045b1
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
-CF-RAY: 9e13ce64ad55fe84-SIN
+CF-RAY: 9e14bbdadbe7f8fe-SIN
 
 {
     "error": "Missing email or username"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginScenarios[notexist@reqres.in, wrongpass, 400, user not found](4)" classname="com.testing.LoginDataDrivenTest" time="0.28">
+  <testcase name="testLoginScenarios[notexist@reqres.in, wrongpass, 400, user not found](4)" classname="com.testing.LoginDataDrivenTest" time="0.518">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -633,7 +633,7 @@ Body:
     "email": "notexist@reqres.in"
 }
 HTTP/1.1 400 Bad Request
-Date: Tue, 24 Mar 2026 07:01:44 GMT
+Date: Tue, 24 Mar 2026 09:43:50 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 26
 Connection: keep-alive
@@ -645,8 +645,8 @@ Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=2lyf7IpaPUcQEX47PPqxaQSp504wgh8zklvOeQCzqkM%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335704"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=2lyf7IpaPUcQEX47PPqxaQSp504wgh8zklvOeQCzqkM%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335704"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=PmzLoIfXgQKo3KOgLaNkdF2GkbGwHWgflNzijUX6cl0%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345430"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=PmzLoIfXgQKo3KOgLaNkdF2GkbGwHWgflNzijUX6cl0%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345430"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -657,28 +657,28 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 222
+X-Ratelimit-Remaining: 166
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Create your own API with custom data - app.reqres.in/dashboard
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: 33fe29a7-1527-0482-eda1-4f0259be4bea
+X-Request-Id: 6075bbda-29a1-d194-e339-179405fe90de
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
-CF-RAY: 9e13ce669dd26cc1-SIN
+CF-RAY: 9e14bbdcffee9998-SIN
 
 {
     "error": "user not found"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginScenarios[invalid-email, pass123, 400, user not found](5)" classname="com.testing.LoginDataDrivenTest" time="0.548">
+  <testcase name="testLoginScenarios[invalid-email, pass123, 400, user not found](5)" classname="com.testing.LoginDataDrivenTest" time="0.335">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -697,7 +697,7 @@ Body:
     "email": "invalid-email"
 }
 HTTP/1.1 400 Bad Request
-Date: Tue, 24 Mar 2026 07:01:44 GMT
+Date: Tue, 24 Mar 2026 09:43:51 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 26
 Connection: keep-alive
@@ -709,8 +709,8 @@ Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=2lyf7IpaPUcQEX47PPqxaQSp504wgh8zklvOeQCzqkM%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774335704"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=2lyf7IpaPUcQEX47PPqxaQSp504wgh8zklvOeQCzqkM%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774335704"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Fqskxot9flAUf2BHBg6AXsiUTaI7MLjFEgFn2p317pY%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774345431"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Fqskxot9flAUf2BHBg6AXsiUTaI7MLjFEgFn2p317pY%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774345431"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -721,21 +721,21 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 221
+X-Ratelimit-Remaining: 165
 X-Ratelimit-Reset: 1774396800
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Create your own API with custom data - app.reqres.in/dashboard
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
 X-Reqres-Trial: true
 X-Reqres-Trial-Days-Remaining: 14
 X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: a5ea33d9-0605-acfb-3eac-c4835bff09a0
+X-Request-Id: cbd0c5e4-c96a-4f92-7fd5-dffa61626e46
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: DYNAMIC
-CF-RAY: 9e13ce688ef145c8-SIN
+CF-RAY: 9e14bbe02d0ec9da-SIN
 
 {
     "error": "user not found"

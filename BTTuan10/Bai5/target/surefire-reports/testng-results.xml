@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T14:10:32 ICT" name="Surefire suite" finished-at="2026-03-24T14:10:41 ICT" duration-ms="8713">
+  <suite started-at="2026-03-24T16:52:45 ICT" name="Surefire suite" finished-at="2026-03-24T16:52:55 ICT" duration-ms="9257">
     <groups>
     </groups>
-    <test started-at="2026-03-24T14:10:32 ICT" name="Surefire test" finished-at="2026-03-24T14:10:41 ICT" duration-ms="8713">
+    <test started-at="2026-03-24T16:52:45 ICT" name="Surefire test" finished-at="2026-03-24T16:52:55 ICT" duration-ms="9257">
       <class name="com.testing.PerformanceSlaTest">
-        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:33 ICT" name="setupApiSpec" finished-at="2026-03-24T14:10:33 ICT" duration-ms="546" status="PASS">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T16:52:45 ICT" name="setupApiSpec" finished-at="2026-03-24T16:52:46 ICT" duration-ms="852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupApiSpec -->
-        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:33 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:35 ICT" duration-ms="2419" status="PASS">
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T16:52:46 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T16:52:49 ICT" duration-ms="2895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEndpointSla -->
-        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:36 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:36 ICT" duration-ms="579" status="PASS">
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T16:52:49 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T16:52:50 ICT" duration-ms="586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEndpointSla -->
-        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:36 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:37 ICT" duration-ms="585" status="PASS">
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T16:52:50 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T16:52:51 ICT" duration-ms="554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEndpointSla -->
-        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:37 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:37 ICT" duration-ms="587" status="PASS">
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T16:52:51 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T16:52:51 ICT" duration-ms="341" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEndpointSla -->
-        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:37 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:38 ICT" duration-ms="531" status="PASS">
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T16:52:51 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T16:52:51 ICT" duration-ms="506" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEndpointSla -->
-        <test-method signature="testPerformanceMonitoring_GetUsers()[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:38 ICT" name="testPerformanceMonitoring_GetUsers" finished-at="2026-03-24T14:10:41 ICT" duration-ms="3344" status="PASS">
+        <test-method signature="testPerformanceMonitoring_GetUsers()[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T16:52:51 ICT" name="testPerformanceMonitoring_GetUsers" finished-at="2026-03-24T16:52:55 ICT" duration-ms="3316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPerformanceMonitoring_GetUsers -->

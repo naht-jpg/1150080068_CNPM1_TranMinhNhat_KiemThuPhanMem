@@ -9,12 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,473</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,502</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.testing.JsonSchemaValidationTest</td><td><a href="#m0">testCreateUserSchemaValidation</a></td><td rowspan="1">1774335469759</td><td rowspan="1">3987</td></tr><tr class="passedeven"><td><a href="#m1">testSchemaFailsWhenExtraFieldPresent</a></td><td rowspan="1">1774335473750</td><td rowspan="1">552</td></tr><tr class="passedeven"><td><a href="#m2">testSingleUserSchemaValidation</a></td><td rowspan="1">1774335474306</td><td rowspan="1">616</td></tr><tr class="passedeven"><td><a href="#m3">testUserListSchemaValidation</a></td><td rowspan="1">1774335474925</td><td rowspan="1">579</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.testing.JsonSchemaValidationTest</td><td><a href="#m0">testSchemaFailsWhenExtraFieldPresent</a></td><td rowspan="1">1774344924722</td><td rowspan="1">511</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.testing.JsonSchemaValidationTest</td><td><a href="#m1">testCreateUserSchemaValidation</a></td><td rowspan="1">1774344921642</td><td rowspan="1">3076</td></tr><tr class="passedeven"><td><a href="#m2">testSingleUserSchemaValidation</a></td><td rowspan="1">1774344925238</td><td rowspan="1">588</td></tr><tr class="passedeven"><td><a href="#m3">testUserListSchemaValidation</a></td><td rowspan="1">1774344925827</td><td rowspan="1">548</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">com.testing.JsonSchemaValidationTest#testCreateUserSchemaValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.testing.JsonSchemaValidationTest#testSchemaFailsWhenExtraFieldPresent</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+<h2>Surefire test</h2><h3 id="m0">com.testing.JsonSchemaValidationTest#testSchemaFailsWhenExtraFieldPresent</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
 Response body doesn&apos;t match expectation.
 Expected: The content to match the given JSON schema.
 error: object instance has properties which are not allowed by the schema: [&quot;_meta&quot;]
@@ -25,7 +24,7 @@ error: object instance has properties which are not allowed by the schema: [&quo
     keyword: &quot;additionalProperties&quot;
     unwanted: [&quot;_meta&quot;]
 
-  Actual: {&quot;name&quot;:&quot;Test Fail&quot;,&quot;job&quot;:&quot;Demo&quot;,&quot;id&quot;:&quot;480&quot;,&quot;createdAt&quot;:&quot;2026-03-24T06:57:55.048Z&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;Classic ReqRes still works. Projects add persistence, auth, and logs.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;See example app&quot;,&quot;url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;},&quot;context&quot;:&quot;legacy_success&quot;}}
+  Actual: {&quot;name&quot;:&quot;Test Fail&quot;,&quot;job&quot;:&quot;Demo&quot;,&quot;id&quot;:&quot;669&quot;,&quot;createdAt&quot;:&quot;2026-03-24T09:35:26.001Z&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;Classic ReqRes still works. Projects add persistence, auth, and logs.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;See example app&quot;,&quot;url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;},&quot;context&quot;:&quot;legacy_success&quot;}}
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
@@ -41,9 +40,10 @@ error: object instance has properties which are not allowed by the schema: [&quo
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:84)
+	at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:85)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testing.JsonSchemaValidationTest#testCreateUserSchemaValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.testing.JsonSchemaValidationTest#testSingleUserSchemaValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.testing.JsonSchemaValidationTest#testUserListSchemaValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

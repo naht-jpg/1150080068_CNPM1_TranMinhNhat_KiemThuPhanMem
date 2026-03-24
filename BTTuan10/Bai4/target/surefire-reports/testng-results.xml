@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T14:01:37 ICT" name="Surefire suite" finished-at="2026-03-24T14:01:43 ICT" duration-ms="6314">
+  <suite started-at="2026-03-24T16:43:42 ICT" name="Surefire suite" finished-at="2026-03-24T16:43:50 ICT" duration-ms="8161">
     <groups>
     </groups>
-    <test started-at="2026-03-24T14:01:37 ICT" name="Surefire test" finished-at="2026-03-24T14:01:43 ICT" duration-ms="6314">
+    <test started-at="2026-03-24T16:43:42 ICT" name="Surefire test" finished-at="2026-03-24T16:43:50 ICT" duration-ms="8161">
       <class name="com.testing.AuthorizationTest">
-        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:37 ICT" name="setupApiSpec" finished-at="2026-03-24T14:01:38 ICT" duration-ms="462" status="PASS">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T16:43:42 ICT" name="setupApiSpec" finished-at="2026-03-24T16:43:43 ICT" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupApiSpec -->
-        <test-method signature="testLoginMissingEmail()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:38 ICT" name="testLoginMissingEmail" finished-at="2026-03-24T14:01:40 ICT" duration-ms="2005" status="PASS">
+        <test-method signature="testLoginMissingEmail()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T16:43:43 ICT" name="testLoginMissingEmail" finished-at="2026-03-24T16:43:46 ICT" duration-ms="3314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginMissingEmail -->
-        <test-method signature="testLoginMissingPassword()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:40 ICT" name="testLoginMissingPassword" finished-at="2026-03-24T14:01:40 ICT" duration-ms="530" status="PASS">
+        <test-method signature="testLoginMissingPassword()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T16:43:46 ICT" name="testLoginMissingPassword" finished-at="2026-03-24T16:43:46 ICT" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginMissingPassword -->
-        <test-method signature="testLoginSuccess()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:40 ICT" name="testLoginSuccess" finished-at="2026-03-24T14:01:40 ICT" duration-ms="343" status="PASS">
+        <test-method signature="testLoginSuccess()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T16:43:46 ICT" name="testLoginSuccess" finished-at="2026-03-24T16:43:47 ICT" duration-ms="619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginSuccess -->
-        <test-method signature="testRegisterMissingPassword()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:40 ICT" name="testRegisterMissingPassword" finished-at="2026-03-24T14:01:41 ICT" duration-ms="347" status="PASS">
+        <test-method signature="testRegisterMissingPassword()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T16:43:47 ICT" name="testRegisterMissingPassword" finished-at="2026-03-24T16:43:47 ICT" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegisterMissingPassword -->
-        <test-method signature="testRegisterSuccess()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:41 ICT" name="testRegisterSuccess" finished-at="2026-03-24T14:01:41 ICT" duration-ms="554" status="PASS">
+        <test-method signature="testRegisterSuccess()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T16:43:47 ICT" name="testRegisterSuccess" finished-at="2026-03-24T16:43:48 ICT" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegisterSuccess -->
       </class> <!-- com.testing.AuthorizationTest -->
       <class name="com.testing.LoginDataDrivenTest">
-        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:41 ICT" name="setupApiSpec" finished-at="2026-03-24T14:01:41 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T16:43:48 ICT" name="setupApiSpec" finished-at="2026-03-24T16:43:48 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupApiSpec -->
-        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:41 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:42 ICT" duration-ms="518" status="PASS">
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T16:43:48 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T16:43:48 ICT" duration-ms="492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginScenarios -->
-        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:42 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:42 ICT" duration-ms="340" status="PASS">
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T16:43:48 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T16:43:49 ICT" duration-ms="452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginScenarios -->
-        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:42 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:43 ICT" duration-ms="351" status="PASS">
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T16:43:49 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T16:43:49 ICT" duration-ms="324" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginScenarios -->
-        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:43 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:43 ICT" duration-ms="281" status="PASS">
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T16:43:49 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T16:43:50 ICT" duration-ms="519" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginScenarios -->
-        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:43 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:43 ICT" duration-ms="545" status="PASS">
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T16:43:50 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T16:43:50 ICT" duration-ms="338" status="PASS">
           <params>
             <param index="0">
               <value>

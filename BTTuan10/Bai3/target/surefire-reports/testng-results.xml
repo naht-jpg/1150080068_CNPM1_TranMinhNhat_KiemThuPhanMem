@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T13:57:48 ICT" name="Surefire suite" finished-at="2026-03-24T13:57:55 ICT" duration-ms="7473">
+  <suite started-at="2026-03-24T16:35:20 ICT" name="Surefire suite" finished-at="2026-03-24T16:35:26 ICT" duration-ms="5502">
     <groups>
     </groups>
-    <test started-at="2026-03-24T13:57:48 ICT" name="Surefire test" finished-at="2026-03-24T13:57:55 ICT" duration-ms="7473">
+    <test started-at="2026-03-24T16:35:20 ICT" name="Surefire test" finished-at="2026-03-24T16:35:26 ICT" duration-ms="5502">
       <class name="com.testing.JsonSchemaValidationTest">
-        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T13:57:48 ICT" name="setupApiSpec" finished-at="2026-03-24T13:57:49 ICT" duration-ms="1645" status="PASS">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T16:35:20 ICT" name="setupApiSpec" finished-at="2026-03-24T16:35:21 ICT" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupApiSpec -->
-        <test-method signature="testCreateUserSchemaValidation()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T13:57:49 ICT" name="testCreateUserSchemaValidation" finished-at="2026-03-24T13:57:53 ICT" duration-ms="3987" status="PASS">
+        <test-method signature="testCreateUserSchemaValidation()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T16:35:21 ICT" name="testCreateUserSchemaValidation" finished-at="2026-03-24T16:35:24 ICT" duration-ms="3076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUserSchemaValidation -->
-        <test-method signature="testSchemaFailsWhenExtraFieldPresent()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T13:57:53 ICT" name="testSchemaFailsWhenExtraFieldPresent" description="Demo: Schema FAIL khi response có field thừa/thiếu" finished-at="2026-03-24T13:57:54 ICT" duration-ms="552" status="PASS">
+        <test-method signature="testSchemaFailsWhenExtraFieldPresent()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T16:35:24 ICT" name="testSchemaFailsWhenExtraFieldPresent" description="Demo: Schema FAIL khi response có field thừa/thiếu" finished-at="2026-03-24T16:35:25 ICT" duration-ms="511" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -29,7 +29,7 @@ error: object instance has properties which are not allowed by the schema: ["_me
     keyword: "additionalProperties"
     unwanted: ["_meta"]
 
-  Actual: {"name":"Test Fail","job":"Demo","id":"480","createdAt":"2026-03-24T06:57:55.048Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Classic ReqRes still works. Projects add persistence, auth, and logs.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+  Actual: {"name":"Test Fail","job":"Demo","id":"669","createdAt":"2026-03-24T09:35:26.001Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Classic ReqRes still works. Projects add persistence, auth, and logs.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
 ]]>
             </message>
             <full-stacktrace>
@@ -44,7 +44,7 @@ error: object instance has properties which are not allowed by the schema: ["_me
     keyword: "additionalProperties"
     unwanted: ["_meta"]
 
-  Actual: {"name":"Test Fail","job":"Demo","id":"480","createdAt":"2026-03-24T06:57:55.048Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Classic ReqRes still works. Projects add persistence, auth, and logs.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
+  Actual: {"name":"Test Fail","job":"Demo","id":"669","createdAt":"2026-03-24T09:35:26.001Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Classic ReqRes still works. Projects add persistence, auth, and logs.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}
 
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -66,7 +66,7 @@ at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaM
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:84)
+at com.testing.JsonSchemaValidationTest.testSchemaFailsWhenExtraFieldPresent(JsonSchemaValidationTest.java:85)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -104,11 +104,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSchemaFailsWhenExtraFieldPresent -->
-        <test-method signature="testSingleUserSchemaValidation()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T13:57:54 ICT" name="testSingleUserSchemaValidation" finished-at="2026-03-24T13:57:54 ICT" duration-ms="616" status="PASS">
+        <test-method signature="testSingleUserSchemaValidation()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T16:35:25 ICT" name="testSingleUserSchemaValidation" finished-at="2026-03-24T16:35:25 ICT" duration-ms="588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSingleUserSchemaValidation -->
-        <test-method signature="testUserListSchemaValidation()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T13:57:54 ICT" name="testUserListSchemaValidation" finished-at="2026-03-24T13:57:55 ICT" duration-ms="579" status="PASS">
+        <test-method signature="testUserListSchemaValidation()[pri:0, instance:com.testing.JsonSchemaValidationTest@6193932a]" started-at="2026-03-24T16:35:25 ICT" name="testUserListSchemaValidation" finished-at="2026-03-24T16:35:26 ICT" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserListSchemaValidation -->

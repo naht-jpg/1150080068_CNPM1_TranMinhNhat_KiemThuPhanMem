@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T14:10:32 ICT" name="Surefire suite" finished-at="2026-03-24T14:10:41 ICT" duration-ms="8713">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T14:10:32 ICT" name="Surefire test" finished-at="2026-03-24T14:10:41 ICT" duration-ms="8713">
+      <class name="com.testing.PerformanceSlaTest">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:33 ICT" name="setupApiSpec" finished-at="2026-03-24T14:10:33 ICT" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiSpec -->
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:33 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:35 ICT" duration-ms="2419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndpointSla -->
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:36 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:36 ICT" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users/2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndpointSla -->
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:36 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:37 ICT" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"name": "SLA Test", "job": "Engineer"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndpointSla -->
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:37 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:37 ICT" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"email": "eve.holt@reqres.in", "password": "cityslicka"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndpointSla -->
+        <test-method signature="testEndpointSla(java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:37 ICT" name="testEndpointSla" data-provider="slaEndpoints" finished-at="2026-03-24T14:10:38 ICT" duration-ms="531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DELETE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users/2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndpointSla -->
+        <test-method signature="testPerformanceMonitoring_GetUsers()[pri:0, instance:com.testing.PerformanceSlaTest@6404f418]" started-at="2026-03-24T14:10:38 ICT" name="testPerformanceMonitoring_GetUsers" finished-at="2026-03-24T14:10:41 ICT" duration-ms="3344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPerformanceMonitoring_GetUsers -->
+      </class> <!-- com.testing.PerformanceSlaTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

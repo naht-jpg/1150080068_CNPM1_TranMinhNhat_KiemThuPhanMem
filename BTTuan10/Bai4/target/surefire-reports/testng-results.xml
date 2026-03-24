@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T14:01:37 ICT" name="Surefire suite" finished-at="2026-03-24T14:01:43 ICT" duration-ms="6314">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T14:01:37 ICT" name="Surefire test" finished-at="2026-03-24T14:01:43 ICT" duration-ms="6314">
+      <class name="com.testing.AuthorizationTest">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:37 ICT" name="setupApiSpec" finished-at="2026-03-24T14:01:38 ICT" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiSpec -->
+        <test-method signature="testLoginMissingEmail()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:38 ICT" name="testLoginMissingEmail" finished-at="2026-03-24T14:01:40 ICT" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMissingEmail -->
+        <test-method signature="testLoginMissingPassword()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:40 ICT" name="testLoginMissingPassword" finished-at="2026-03-24T14:01:40 ICT" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMissingPassword -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:40 ICT" name="testLoginSuccess" finished-at="2026-03-24T14:01:40 ICT" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method signature="testRegisterMissingPassword()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:40 ICT" name="testRegisterMissingPassword" finished-at="2026-03-24T14:01:41 ICT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterMissingPassword -->
+        <test-method signature="testRegisterSuccess()[pri:0, instance:com.testing.AuthorizationTest@778d1062]" started-at="2026-03-24T14:01:41 ICT" name="testRegisterSuccess" finished-at="2026-03-24T14:01:41 ICT" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+      </class> <!-- com.testing.AuthorizationTest -->
+      <class name="com.testing.LoginDataDrivenTest">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:41 ICT" name="setupApiSpec" finished-at="2026-03-24T14:01:41 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiSpec -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:41 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:42 ICT" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:42 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:42 ICT" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:42 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:43 ICT" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:43 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:43 ICT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[notexist@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+        <test-method signature="testLoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.testing.LoginDataDrivenTest@670002]" started-at="2026-03-24T14:01:43 ICT" name="testLoginScenarios" data-provider="loginScenarios" finished-at="2026-03-24T14:01:43 ICT" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScenarios -->
+      </class> <!-- com.testing.LoginDataDrivenTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

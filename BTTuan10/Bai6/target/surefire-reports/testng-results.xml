@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T14:33:35 ICT" name="Surefire suite" finished-at="2026-03-24T14:33:46 ICT" duration-ms="11271">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T14:33:35 ICT" name="Surefire test" finished-at="2026-03-24T14:33:46 ICT" duration-ms="11271">
+      <class name="com.testing.ApiPreconditionUiTest">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.ApiPreconditionUiTest@4c9f8c13]" started-at="2026-03-24T14:33:35 ICT" name="setupApiSpec" finished-at="2026-03-24T14:33:35 ICT" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiSpec -->
+        <test-method is-config="true" signature="apiLoginPrecondition()[pri:0, instance:com.testing.ApiPreconditionUiTest@4c9f8c13]" started-at="2026-03-24T14:33:35 ICT" name="apiLoginPrecondition" finished-at="2026-03-24T14:33:38 ICT" duration-ms="2731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginPrecondition -->
+        <test-method signature="testApiLoginSuccess()[pri:0, instance:com.testing.ApiPreconditionUiTest@4c9f8c13]" started-at="2026-03-24T14:33:38 ICT" name="testApiLoginSuccess" finished-at="2026-03-24T14:33:38 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiLoginSuccess -->
+        <test-method is-config="true" signature="apiLoginPrecondition()[pri:0, instance:com.testing.ApiPreconditionUiTest@4c9f8c13]" started-at="2026-03-24T14:33:38 ICT" name="apiLoginPrecondition" finished-at="2026-03-24T14:33:38 ICT" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginPrecondition -->
+        <test-method signature="testUiLoginSaucedemo()[pri:0, instance:com.testing.ApiPreconditionUiTest@4c9f8c13]" started-at="2026-03-24T14:33:38 ICT" name="testUiLoginSaucedemo" finished-at="2026-03-24T14:33:43 ICT" depends-on-methods="com.testing.ApiPreconditionUiTest.testApiLoginSuccess" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUiLoginSaucedemo -->
+      </class> <!-- com.testing.ApiPreconditionUiTest -->
+      <class name="com.testing.FullIntegrationFlowTest">
+        <test-method is-config="true" signature="setupApiSpec()[pri:0, instance:com.testing.FullIntegrationFlowTest@70e8f8e]" started-at="2026-03-24T14:33:43 ICT" name="setupApiSpec" finished-at="2026-03-24T14:33:43 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiSpec -->
+        <test-method is-config="true" signature="checkApiHealth()[pri:0, instance:com.testing.FullIntegrationFlowTest@70e8f8e]" started-at="2026-03-24T14:33:43 ICT" name="checkApiHealth" finished-at="2026-03-24T14:33:43 ICT" depends-on-methods="com.testing.ApiBaseTest.setupApiSpec" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkApiHealth -->
+        <test-method is-config="true" signature="skipIfApiDown()[pri:0, instance:com.testing.FullIntegrationFlowTest@70e8f8e]" started-at="2026-03-24T14:33:43 ICT" name="skipIfApiDown" finished-at="2026-03-24T14:33:43 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipIfApiDown -->
+        <test-method signature="testFullIntegrationFlow()[pri:0, instance:com.testing.FullIntegrationFlowTest@70e8f8e]" started-at="2026-03-24T14:33:43 ICT" name="testFullIntegrationFlow" finished-at="2026-03-24T14:33:46 ICT" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullIntegrationFlow -->
+      </class> <!-- com.testing.FullIntegrationFlowTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

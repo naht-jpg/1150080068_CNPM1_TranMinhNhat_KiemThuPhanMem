@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  Smoke suite: Chỉ chạy các test thuộc group "smoke"
+  Chạy: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng-smoke.xml
+-->
+<suite name="BTTuan9_Bai2_Smoke" verbose="1" parallel="methods" thread-count="2">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env"     value="dev"/>
+
+    <test name="Smoke_Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CartTest"/>
+            <class name="tests.LoginDDTTest"/>
+        </classes>
+    </test>
+
+</suite>

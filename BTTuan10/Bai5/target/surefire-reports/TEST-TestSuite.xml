@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.296" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\KiemThuPhanMem\BTTuan10\Bai5\target\test-classes;D:\KiemThuPhanMem\BTTuan10\Bai5\target\classes;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vvkgh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vvkgh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vvkgh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\vvkgh\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\vvkgh\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\vvkgh\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\vvkgh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\vvkgh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vvkgh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vvkgh\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\vvkgh\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\vvkgh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\vvkgh\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\vvkgh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vvkgh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vvkgh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\vvkgh\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="user.country.format" value="AI"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\vvkgh\AppData\Local\Temp\surefire5758993154758925596\surefirebooter-20260324141032256_3.jar C:\Users\vvkgh\AppData\Local\Temp\surefire5758993154758925596 2026-03-24T14-10-32_129-jvmRun1 surefire-20260324141032256_1tmp surefire_0-20260324141032256_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\KiemThuPhanMem\BTTuan10\Bai5\target\test-classes;D:\KiemThuPhanMem\BTTuan10\Bai5\target\classes;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vvkgh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vvkgh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vvkgh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vvkgh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vvkgh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\vvkgh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vvkgh\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\vvkgh\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\vvkgh\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\vvkgh\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\vvkgh\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\vvkgh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\vvkgh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vvkgh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\vvkgh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vvkgh\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\vvkgh\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\vvkgh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\vvkgh\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\vvkgh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vvkgh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vvkgh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\vvkgh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\vvkgh\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\vvkgh\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vvkgh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\KiemThuPhanMem\BTTuan10\Bai5"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vvkgh\AppData\Local\Temp\surefire5758993154758925596\surefirebooter-20260324141032256_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-2513"/>
+    <property name="user.name" value="vvkgh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vvkgh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vvkgh\AppData\Local\Temp\"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="D:\KiemThuPhanMem\BTTuan10\Bai5"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;D:\Oracle\product\21c\dbhomeXE\bin;%D:\Oracle\product\21c\dbhomeXE\bin;D:\Oracle\product\21c\dbhomeXE\bin;D:\Oracle\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\GitHub CLI\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\MongoDB\Server\8.0\bin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\Docker\Docker\resources\bin;C:\scre\flutter\bin;D:\Oracle\sqldeveloper-24.3.1.347.1826-x64\sqldeveloper\sqldeveloper\bin;C:\Users\vvkgh\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\vvkgh\AppData\Local\Programs\;C:\Users\vvkgh\AppData\Local\Android\Sdk\platform-tools;D:\pub-cache\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.12\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\vvkgh\.cargo\bin;C:\Users\vvkgh\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\vvkgh\AppData\Local\Programs\Python\Python313\;C:\Users\vvkgh\AppData\Local\Microsoft\WindowsApps;C:\Users\vvkgh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vvkgh\AppData\Roaming\npm;C:\Users\vvkgh\.dotnet\tools;D:\Antigravity\bin;c:\Users\vvkgh\.antigravity\extensions\vscjava.vscode-java-debug-0.58.5-universal\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testEndpointSla[GET, /users, 2000, null](1)" classname="com.testing.PerformanceSlaTest" time="2.48">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=hw6wj4x6tsp3zix8pe8UcKwoAaD7nnU%2BdBxfinh%2Baxk%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336235"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=hw6wj4x6tsp3zix8pe8UcKwoAaD7nnU%2BdBxfinh%2Baxk%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336235"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 220
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 7e24f4f8-4429-2428-b475-40c74c61b13b
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db613ff29cb0-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+=== SLA CHECK: GET /users | SLA: 2000ms | Actual: 1093ms | ✅ PASS ===
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testEndpointSla[GET, /users/2, 1500, null](2)" classname="com.testing.PerformanceSlaTest" time="0.577">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:37 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"2fa-qNOFiRRbmduOE7ud4nPxQ0E7pWI"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=zdYeTGMwYFW0WoeBOqx%2FeXfgSu0sVajxWLcQJrf%2Fb5M%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336237"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=zdYeTGMwYFW0WoeBOqx%2FeXfgSu0sVajxWLcQJrf%2Fb5M%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336237"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 219
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: c0b2ba4c-ce6c-e4af-eee8-d657a629f5de
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db69df6f4493-SIN
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+=== SLA CHECK: GET /users/2 | SLA: 1500ms | Actual: 535ms | ✅ PASS ===
+]]></system-out>
+  </testcase>
+  <testcase name="testEndpointSla[POST, /users, 3000, {&quot;name&quot;: &quot;SLA Test&quot;, &quot;job&quot;: &quot;Engineer&quot;}](3)" classname="com.testing.PerformanceSlaTest" time="0.591">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "SLA Test",
+    "job": "Engineer"
+}
+HTTP/1.1 201 Created
+Date: Tue, 24 Mar 2026 07:10:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 479
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1df-C2NMqPsPKFtqEc/SNo70ivXBQ4A"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=zdYeTGMwYFW0WoeBOqx%2FeXfgSu0sVajxWLcQJrf%2Fb5M%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336237"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=zdYeTGMwYFW0WoeBOqx%2FeXfgSu0sVajxWLcQJrf%2Fb5M%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336237"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 218
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: af60c115-1f27-c9b6-e228-ae01cd2a4b8b
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13db6d7f1487c3-SIN
+
+{
+    "name": "SLA Test",
+    "job": "Engineer",
+    "id": "940",
+    "createdAt": "2026-03-24T07:10:37.973Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+=== SLA CHECK: POST /users | SLA: 3000ms | Actual: 538ms | ✅ PASS ===
+]]></system-out>
+  </testcase>
+  <testcase name="testEndpointSla[POST, /login, 2000, {&quot;email&quot;: &quot;eve.holt@reqres.in&quot;, &quot;password&quot;: &quot;cityslicka&quot;}](4)" classname="com.testing.PerformanceSlaTest" time="0.587">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:38 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1a6-OPYOvhNlJBNDjBInPmPS5KSNydc"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ldVNbJdt8n3kH%2BnSPDu%2FuIMoXQRqAUjvPyhwb8SkK3k%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336238"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ldVNbJdt8n3kH%2BnSPDu%2FuIMoXQRqAUjvPyhwb8SkK3k%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336238"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 217
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 08da6470-254f-f5d5-9244-896ddc58bc6b
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9e13db712dbadfe3-SIN
+
+{
+    "token": "QpwL5tke4Pnpja7X4",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+=== SLA CHECK: POST /login | SLA: 2000ms | Actual: 538ms | ✅ PASS ===
+]]></system-out>
+  </testcase>
+  <testcase name="testEndpointSla[DELETE, /users/2, 1000, null](5)" classname="com.testing.PerformanceSlaTest" time="0.534">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Tue, 24 Mar 2026 07:10:39 GMT
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=DG2C8fi%2BQT3FazNSJePEXY3sZHuOfrc4XntMicIe7ss%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336239"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=DG2C8fi%2BQT3FazNSJePEXY3sZHuOfrc4XntMicIe7ss%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336239"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 216
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: c3c60059-6d3e-a9c5-c1e4-a8fe221f485d
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13db74d97380f7-SIN
+=== SLA CHECK: DELETE /users/2 | SLA: 1000ms | Actual: 509ms | ✅ PASS ===
+]]></system-out>
+  </testcase>
+  <testcase name="testPerformanceMonitoring_GetUsers" classname="com.testing.PerformanceSlaTest" time="3.353">
+    <system-out><![CDATA[
+========== PERFORMANCE MONITORING: GET /api/users ==========
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:39 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 18
+Ratelimit-Reset: 57
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=DG2C8fi%2BQT3FazNSJePEXY3sZHuOfrc4XntMicIe7ss%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336239"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=DG2C8fi%2BQT3FazNSJePEXY3sZHuOfrc4XntMicIe7ss%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336239"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 215
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: f0b55229-705b-a4ce-9825-a36a98c8555b
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db781c339c35-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 1: 343ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:39 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 17
+Ratelimit-Reset: 56
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=DG2C8fi%2BQT3FazNSJePEXY3sZHuOfrc4XntMicIe7ss%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336239"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=DG2C8fi%2BQT3FazNSJePEXY3sZHuOfrc4XntMicIe7ss%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336239"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 214
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: fbaa6cd8-eb0b-e64d-a205-e862cb5b1f07
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db7a6d14fdec-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 2: 332ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 16
+Ratelimit-Reset: 56
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ANdTFKCPLTsuQ9RjDGYZVyJlOmV2DtcZHHOfXR2Vv5Q%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336240"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ANdTFKCPLTsuQ9RjDGYZVyJlOmV2DtcZHHOfXR2Vv5Q%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336240"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 213
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 7940e5b4-20bb-7686-8a70-a1ea4a9d73c3
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db7c788872da-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 3: 324ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 15
+Ratelimit-Reset: 56
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ANdTFKCPLTsuQ9RjDGYZVyJlOmV2DtcZHHOfXR2Vv5Q%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336240"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ANdTFKCPLTsuQ9RjDGYZVyJlOmV2DtcZHHOfXR2Vv5Q%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336240"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 212
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 9fad7d24-218e-33ff-c436-3ac4b31370b4
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db7e9c24ef69-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 4: 326ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 14
+Ratelimit-Reset: 55
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ANdTFKCPLTsuQ9RjDGYZVyJlOmV2DtcZHHOfXR2Vv5Q%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336240"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ANdTFKCPLTsuQ9RjDGYZVyJlOmV2DtcZHHOfXR2Vv5Q%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336240"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 211
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 3c29dc92-6ba5-0387-e8e2-d4a37930c6e3
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db80ca83f92c-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 5: 330ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 13
+Ratelimit-Reset: 55
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=8qGH2vpPcahcpDuws5SHXfcl1Z0adwP4rioEslAECmk%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336241"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=8qGH2vpPcahcpDuws5SHXfcl1Z0adwP4rioEslAECmk%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336241"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 210
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 1f2260b1-3b47-40aa-87ea-1fc63918df5d
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db82c8885f76-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 6: 316ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 12
+Ratelimit-Reset: 55
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=8qGH2vpPcahcpDuws5SHXfcl1Z0adwP4rioEslAECmk%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336241"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=8qGH2vpPcahcpDuws5SHXfcl1Z0adwP4rioEslAECmk%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336241"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 209
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 37f15e81-fdaa-7bb1-16fd-e63274679e5f
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db84bfa34b6d-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 7: 291ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 11
+Ratelimit-Reset: 55
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=8qGH2vpPcahcpDuws5SHXfcl1Z0adwP4rioEslAECmk%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336241"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=8qGH2vpPcahcpDuws5SHXfcl1Z0adwP4rioEslAECmk%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336241"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 208
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 80ce210c-75f6-529b-9d60-cbe446ee8a4c
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db86aea344a8-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 8: 321ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 10
+Ratelimit-Reset: 54
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=VM7wG%2FFwwtDq6vk0aA%2B95E9j8qxw4IEyxpcVVmscfVw%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336242"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=VM7wG%2FFwwtDq6vk0aA%2B95E9j8qxw4IEyxpcVVmscfVw%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336242"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 207
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: ce6595d7-cfbe-3678-37e3-41e7d5f26dad
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db88ddd05ffc-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 9: 335ms
+Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				x-api-key=reqres_d708866ddc594d8cb8b8c8407fd2e070
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 07:10:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5c6-O/lwD5ZEDSS1eCnJVASaEbXjskM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 9
+Ratelimit-Reset: 54
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=VM7wG%2FFwwtDq6vk0aA%2B95E9j8qxw4IEyxpcVVmscfVw%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774336242"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=VM7wG%2FFwwtDq6vk0aA%2B95E9j8qxw4IEyxpcVVmscfVw%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774336242"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 206
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:38:55.777Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 8614df5c-e298-5d87-4eff-49c7dd1c8003
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13db8aeb4c9c9b-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_a",
+        "message": "Classic ReqRes still works. Projects add persistence, auth, and logs.",
+        "cta": {
+            "label": "See example app",
+            "url": "https://app.reqres.in/examples/notes-app"
+        },
+        "context": "legacy_success"
+    }
+}
+  Lần 10: 322ms
+----------------------------------------------------------
+  📊 Tổng số lần chạy : 10
+  ⏱  Average          : 324ms
+  ⬇  Min              : 291ms
+  ⬆  Max              : 343ms
+  🎯 SLA              : 2000ms
+  ✅ SLA PASS (avg 324ms <= 2000ms)
+==========================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -10,6 +10,9 @@ on:
 jobs:
   run-tests:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: BTTuan11/Selenium-framework
 
     steps:
       - name: Checkout code
@@ -36,6 +39,6 @@ jobs:
         with:
           name: test-results
           path: |
-            target/surefire-reports/
-            target/**/*.png
+            BTTuan11/Selenium-framework/target/surefire-reports/
+            BTTuan11/Selenium-framework/target/**/*.png
           retention-days: 30

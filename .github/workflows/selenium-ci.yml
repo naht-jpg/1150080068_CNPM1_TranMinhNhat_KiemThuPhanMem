@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix: 
-        browser: [chrome,edge]
+        browser: [chrome,firefox]
       fail-fast: false
     defaults:
       run:
@@ -31,8 +31,8 @@ jobs:
 
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
-      - name: Setup Edge
-        uses: browser-actions/setup-edge@v1
+      - name: Setup Firefox
+        uses: browser-actions/setup-firefox@v1
 
       # - name: Chạy Selenium Tests
       #   run: mvn clean test -Dbrowser=chrome -Denv=dev -DsuiteXmlFile=testng-smoke.xml

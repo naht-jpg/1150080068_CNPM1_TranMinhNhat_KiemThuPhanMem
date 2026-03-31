@@ -10,6 +10,10 @@ on:
 jobs:
   run-tests:
     runs-on: ubuntu-latest
+    strategy:
+      matrix: 
+        browser: [chrome,edge]
+      fail-fast: false
     defaults:
       run:
         working-directory: BTTuan11/Selenium-framework
@@ -27,17 +31,23 @@ jobs:
 
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
+      - name: Setup Edge
+        uses: browser-actions/setup-edge@v1
 
-      - name: Chạy Selenium Tests
-        run: mvn clean test -Dbrowser=chrome -Denv=dev -DsuiteXmlFile=testng-smoke.xml
+      # - name: Chạy Selenium Tests
+      #   run: mvn clean test -Dbrowser=chrome -Denv=dev -DsuiteXmlFile=testng-smoke.xml
+      #   env:
+      #     APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
+
+      - name: Chạy test (${{ matrix.browser }})
+        run: mvn clean test -Dbrowser=${{ matrix.browser }} -DsuiteXmlFile=testng-smoke.xml
         env:
           APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
-
       - name: Lưu kết quả test
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-results
+          name: test-results-${{ matrix.browser }}
           path: |
             BTTuan11/Selenium-framework/target/surefire-reports/
             BTTuan11/Selenium-framework/target/**/*.png

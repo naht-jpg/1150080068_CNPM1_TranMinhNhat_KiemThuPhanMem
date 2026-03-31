@@ -4,7 +4,7 @@
   Regression suite: Chạy toàn bộ test (smoke + regression)
   Chạy: mvn test  (mặc định dùng file này theo pom.xml)
 -->
-<suite name="BTTuan9_Bai2_Regression" verbose="1" parallel="classes" thread-count="2">
+<suite name="Selenium-framework" verbose="1" parallel="classes" thread-count="2">
 
     <parameter name="browser" value="chrome"/>
     <parameter name="env"     value="dev"/>

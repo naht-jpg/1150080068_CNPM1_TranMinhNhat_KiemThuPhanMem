@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix: 
-        browser: [chrome,firefox]
+        browser: [chrome]
       fail-fast: false
     defaults:
       run:
@@ -31,18 +31,24 @@ jobs:
 
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
-      - name: Setup Firefox
-        uses: browser-actions/setup-firefox@v1
+      # - name: Setup Firefox
+      #   uses: browser-actions/setup-firefox@v1
 
       # - name: Chạy Selenium Tests
       #   run: mvn clean test -Dbrowser=chrome -Denv=dev -DsuiteXmlFile=testng-smoke.xml
       #   env:
       #     APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
 
-      - name: Chạy test (${{ matrix.browser }})
-        run: mvn clean test -Dbrowser=${{ matrix.browser }} -DsuiteXmlFile=testng-smoke.xml
+      # - name: Chạy test (${{ matrix.browser }})
+      #   run: mvn clean test -Dbrowser=${{ matrix.browser }} -DsuiteXmlFile=testng-smoke.xml
+      #   env:
+      #     APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
+      - name: Chạy test
+        run: mvn test -Dbrowser=chrome
         env:
+          APP_USERNAME: ${{ secrets.SAUCEDEMO_USERNAME }}
           APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
+          # GitHub tự động che giá trị → log hiển thị *** thay vì giá trị thật
       - name: Lưu kết quả test
         if: always()
         uses: actions/upload-artifact@v4

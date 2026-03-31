@@ -4,7 +4,7 @@
   Smoke suite: Chỉ chạy các test thuộc group "smoke"
   Chạy: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng-smoke.xml
 -->
-<suite name="BTTuan9_Bai2_Smoke" verbose="1" parallel="methods" thread-count="2">
+<suite name="Selenium-framework" verbose="1" parallel="methods" thread-count="2">
 
     <parameter name="browser" value="chrome"/>
     <parameter name="env"     value="dev"/>

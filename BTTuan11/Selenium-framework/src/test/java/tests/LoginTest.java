@@ -17,7 +17,7 @@ public class LoginTest extends BaseTest {
           description = "Đăng nhập thành công với tài khoản hợp lệ - kiểm tra trả về InventoryPage")
     public void testLoginSuccessReturnsInventoryPage() {
         LoginPage loginPage = new LoginPage(getDriver());
-        InventoryPage inventoryPage = loginPage.login("standard_user", "secret_sauce");
+        InventoryPage inventoryPage = loginPage.login("APP_USERNAME", "APP_PASSWORD");
 
         Assert.assertTrue(inventoryPage.isLoaded(),
                 "Sau khi đăng nhập thành công phải hiển thị trang sản phẩm");
@@ -27,7 +27,7 @@ public class LoginTest extends BaseTest {
           description = "Đăng nhập thất bại với mật khẩu sai - trả về LoginPage và hiển thị lỗi")
     public void testLoginFailureShowsError() {
         LoginPage loginPage = new LoginPage(getDriver());
-        LoginPage result = loginPage.loginExpectingFailure("standard_user", "wrong_password");
+        LoginPage result = loginPage.loginExpectingFailure("APP_USERNAME", "wrong_password");
 
         Assert.assertTrue(result.isErrorDisplayed(),
                 "Phải hiển thị thông báo lỗi khi đăng nhập thất bại");
@@ -39,7 +39,7 @@ public class LoginTest extends BaseTest {
           description = "Tài khoản bị khóa không thể đăng nhập")
     public void testLockedOutUserCannotLogin() {
         LoginPage loginPage = new LoginPage(getDriver());
-        LoginPage result = loginPage.loginExpectingFailure("locked_out_user", "secret_sauce");
+        LoginPage result = loginPage.loginExpectingFailure("locked_out_user", "APP_PASSWORD");
 
         Assert.assertTrue(result.isErrorDisplayed(),
                 "Tài khoản bị khóa phải hiển thị thông báo lỗi");
@@ -62,7 +62,7 @@ public class LoginTest extends BaseTest {
           description = "Đăng nhập với username để trống - hiển thị lỗi username")
     public void testEmptyUsernameShowsError() {
         LoginPage loginPage = new LoginPage(getDriver());
-        LoginPage result = loginPage.loginExpectingFailure("", "secret_sauce");
+        LoginPage result = loginPage.loginExpectingFailure("", "APP_PASSWORD");
 
         Assert.assertTrue(result.isErrorDisplayed(), "Phải hiển thị lỗi khi username rỗng");
         Assert.assertTrue(result.getErrorMessage().contains("Username"),
@@ -76,7 +76,7 @@ public class LoginTest extends BaseTest {
 
         // Fluent Interface chain: login → inventory → cart
         int cartCount = loginPage
-                .login("standard_user", "secret_sauce")
+                .login("APP_USERNAME", "APP_PASSWORD")
                 .addFirstItemToCart()
                 .getCartItemCount();
 

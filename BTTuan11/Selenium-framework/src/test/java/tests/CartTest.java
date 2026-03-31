@@ -20,7 +20,7 @@ public class CartTest extends BaseTest {
      * Helper: đăng nhập và trả về InventoryPage.
      */
     private InventoryPage loginAsStandard() {
-        return new LoginPage(getDriver()).login("standard_user", "secret_sauce");
+        return new LoginPage(getDriver()).login("APP_USERNAME", "APP_PASSWORD");
     }
 
     @Test(groups = "smoke",

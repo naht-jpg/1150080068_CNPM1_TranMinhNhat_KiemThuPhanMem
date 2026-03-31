@@ -27,7 +27,7 @@ public class ConfigReader {
                 throw new RuntimeException("Không tìm thấy file cấu hình: " + fileName);
             }
             properties.load(is);
-            System.out.println("▶ Đã load cấu hình từ: " + fileName);
+            System.out.println("Đã load cấu hình từ: " + fileName);
         } catch (IOException e) {
             throw new RuntimeException("Lỗi khi đọc file cấu hình: " + fileName, e);
         }
@@ -57,8 +57,23 @@ public class ConfigReader {
     public String getBaseUrl()    { return properties.getProperty("base.url"); }
     public String getBrowser()    { return properties.getProperty("browser", "chrome"); }
     public String getUsername()   { return properties.getProperty("username"); }
-    public String getPassword()   { return properties.getProperty("password"); }
     public int    getTimeout()    { return Integer.parseInt(properties.getProperty("timeout", "10")); }
-
     public String get(String key) { return properties.getProperty(key); }
+
+    /**
+     * Lấy Password: Ưu tiên GitHub Secrets (CI/CD), nếu không có mới đọc từ file properties (Local)
+     */
+    public String getPassword() {
+        // Đọc từ biến môi trường của hệ thống (GitHub Actions sẽ truyền vào đây)
+        String password = System.getenv("APP_PASSWORD");
+        
+        // Nếu chạy ở local máy tính, biến này sẽ null, code sẽ rơi vào nhánh if
+        if (password == null || password.isBlank()) {
+            // Thay vì gọi ConfigReader.getInstance(), ta dùng luôn biến properties của class
+            // Lưu ý: Key ở đây tôi đang để là "password" theo đúng form cũ của bạn
+            password = properties.getProperty("password"); 
+        }
+        
+        return password;
+    }
 }

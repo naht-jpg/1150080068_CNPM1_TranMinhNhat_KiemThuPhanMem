@@ -61,7 +61,7 @@ public class LoginDDTTest extends BaseTest {
           description = "Fluent chain đầy đủ: login → addItem → goToCart → goToCheckout")
     public void testFullFluentChain() {
         boolean step1Loaded = new LoginPage(getDriver())
-                .login("standard_user", "secret_sauce")
+                .login("APP_USERNAME", "APP_PASSWORD")
                 .addFirstItemToCart()
                 .goToCart()
                 .goToCheckout()
